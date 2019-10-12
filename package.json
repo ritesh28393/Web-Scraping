@@ -1,0 +1,22 @@
+{
+  "name": "web-scrapping",
+  "version": "1.0.0",
+  "description": "Web Scrapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritesh28393/Web-Scraping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritesh28393/Web-Scraping/issues"
+  },
+  "homepage": "https://github.com/ritesh28393/Web-Scraping#readme",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
