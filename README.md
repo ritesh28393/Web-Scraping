@@ -8,8 +8,6 @@
 
 <https://github.com/GoogleChrome/puppeteer/tree/master/examples>
 
-<https://cheerio.js.org/>
-
 <https://www.w3schools.com/cssref/css_selectors.asp>
 
 <https://www.youtube.com/watch?v=IvaJ5n5xFqU>
@@ -17,8 +15,7 @@
 ## Commands
 * npm init
 * npm i --save puppeteer
-
-## Cheerio
+## Cheerio (replace with JQUERY)
 * preferred method
   ```js
   const cheerio = require('cheerio');

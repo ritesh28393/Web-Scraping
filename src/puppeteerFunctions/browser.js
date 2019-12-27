@@ -3,12 +3,12 @@ module.exports = {
         const browser = await puppeteer.launch({
             "headless": headlessBool
         });
-        console.log('browser has launched');
+        console.log('browser launched');
         return browser;
     },
     newPage: async (browser) => {
         const page = await browser.newPage();
-        console.log('page has created');
+        console.log('page created');
         return page;
     },
     pages: async (browser) => {
@@ -18,6 +18,6 @@ module.exports = {
     },
     close: async (browser) => {
         await browser.close();
-        console.log('browser has closed');
+        console.log('browser closed');
     }
 }

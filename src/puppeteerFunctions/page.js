@@ -1,11 +1,11 @@
 module.exports = {
     close: async (page) => {
         await page.close();
-        console.log('page has closed => ', page);
+        console.log('page closed');
     },
     htmlString: async (page) => {
         const content = await page.content();
-        console.log('page content => ', content);
+        console.log('page content returned');
         return content;
     },
     emulateDevice: async (puppeteer, page, deviceName) => {
@@ -14,11 +14,6 @@ module.exports = {
         const device = puppeteer.devices[deviceName];
         await page.emulate(device);
         console.log('page has emulated');
-    },
-    evalute: async (page, func) => {
-        // https://pptr.dev/#?product=Puppeteer&version=v1.20.0&show=api-pageevaluatepagefunction-args
-        await page.evaluate(func);
-        console.log('page has evaluated function');
     },
     goto: async (page, url) => {
         await page.goto(url);
@@ -71,5 +66,12 @@ module.exports = {
     waitForSelector: async (page, selector) => {
         await page.waitForSelector(selector);
         console.log('page wait for selector => ', selector);
+    },
+    addJQueryAndEvaluate: async (page, evaluateFunc) => {
+        await page.addScriptTag({ url: 'https://code.jquery.com/jquery-3.4.1.min.js' });
+        console.log('page added JQuery');
+        var evaluationResult = page.evaluate(evaluateFunc);
+        console.log('page evaluated');
+        return evaluationResult;
     }
 }

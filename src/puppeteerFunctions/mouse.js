@@ -17,7 +17,7 @@ module.exports = {
             page.click(selector)
         ]);
         console.log('page click => ', selector);
-        console.log('page has navigated');
+        console.log('page navigated');
     },
     select: async (page, selector, values) => {
         // https://pptr.dev/#?product=Puppeteer&version=v1.20.0&show=api-pageselectselector-values
