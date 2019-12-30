@@ -70,7 +70,7 @@ module.exports = {
     addJQueryAndEvaluate: async (page, evaluateFunc) => {
         await page.addScriptTag({ url: 'https://code.jquery.com/jquery-3.4.1.min.js' });
         console.log('page added JQuery');
-        var evaluationResult = page.evaluate(evaluateFunc);
+        var evaluationResult = await page.evaluate(evaluateFunc);
         console.log('page evaluated');
         return evaluationResult;
     }

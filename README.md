@@ -6,11 +6,23 @@
 
 <https://pptr.dev/>
 
+<https://software.hixie.ch/utilities/js/live-dom-viewer/>
+
+<https://www.w3schools.com/jquery/jquery_dom_get.asp>
+
+<https://www.udemy.com/course/nodejs-web-scraping/>
+
 <https://github.com/GoogleChrome/puppeteer/tree/master/examples>
 
 <https://www.w3schools.com/cssref/css_selectors.asp>
 
 <https://www.youtube.com/watch?v=IvaJ5n5xFqU>
+
+```js
+var jq = document.createElement('script');
+jq.src = "https://code.jquery.com/jquery-3.4.1.min.js";
+document.getElementsByTagName('head')[0].appendChild(jq);
+```
 
 ## Commands
 * npm init
