@@ -1,368 +1,114 @@
 {
-    "DIV#id-5.cls-61": {
-        "shortTagName": "DIV",
+    "nonProcessTags": [
+        "B",
+        "P",
+        "LI",
+        "SPAN",
+        "UL",
+        "DIV",
+        "TD",
+        "TR",
+        "TBODY",
+        "TABLE"
+    ],
+    "logs": [
+        "prt=>TD#id-69.cls-47 & curr=>H2 & Fun=>heading",
+        "prt=>LI#id-91.cls-57 & curr=>B & Fun=>container",
+        "prt=>LI#id-91.cls-57 & curr=>P & Fun=>container",
+        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
+        "moving data to [UL#id-95.cls-62] from [LI#id-91.cls-57]",
+        "prt=>LI#id-99.cls-13 & curr=>B & Fun=>container",
+        "prt=>LI#id-99.cls-13 & curr=>P & Fun=>container",
+        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
+        "moving data to [UL#id-95.cls-62] from [LI#id-99.cls-13]",
+        "prt=>LI#id-23.cls-84 & curr=>B & Fun=>container",
+        "prt=>LI#id-23.cls-84 & curr=>P & Fun=>container",
+        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
+        "moving data to [UL#id-95.cls-62] from [LI#id-23.cls-84]",
+        "prt=>LI#id-58.cls-65 & curr=>B & Fun=>container",
+        "prt=>SPAN#id-78.cls-59 & curr=>A & Fun=>anchor",
+        "prt=>LI#id-58.cls-65 & curr=>SPAN & Fun=>container",
+        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
+        "moving data to [UL#id-95.cls-62] from [LI#id-58.cls-65]",
+        "prt=>LI#SalesRank.cls-19 & curr=>B & Fun=>container",
+        "prt=>LI#SalesRank.cls-19 & curr=>P & Fun=>container",
+        "prt=>LI#SalesRank.cls-19 & curr=>A & Fun=>anchor",
+        "prt=>LI#SalesRank.cls-19 & curr=>P & Fun=>container",
+        "prt=>LI#id-7.cls-5 & curr=>SPAN & Fun=>container",
+        "prt=>SPAN#id-49.cls-71 & curr=>P & Fun=>container",
+        "prt=>SPAN#id-49.cls-71 & curr=>A & Fun=>anchor",
+        "prt=>LI#id-7.cls-5 & curr=>SPAN & Fun=>container",
+        "moving data to [LI#id-7.cls-5] from [SPAN#id-49.cls-71]",
+        "prt=>UL#id-24.cls-46 & curr=>LI & Fun=>container",
+        "moving data to [UL#id-24.cls-46] from [LI#id-7.cls-5]",
+        "prt=>LI#SalesRank.cls-19 & curr=>UL & Fun=>container",
+        "moving data to [LI#SalesRank.cls-19] from [UL#id-24.cls-46]",
+        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
+        "moving data to [UL#id-95.cls-62] from [LI#SalesRank.cls-19]",
+        "prt=>DIV#id-9.cls-34 & curr=>UL & Fun=>container",
+        "moving data to [DIV#id-9.cls-34] from [UL#id-95.cls-62]",
+        "prt=>TD#id-69.cls-47 & curr=>DIV & Fun=>container",
+        "moving data to [TD#id-69.cls-47] from [DIV#id-9.cls-34]",
+        "prt=>TR#id-22.cls-21 & curr=>TD & Fun=>container",
+        "prt=>TBODY#id-35.cls-66 & curr=>TR & Fun=>container",
+        "moving data to [TBODY#id-35.cls-66] from [TR#id-22.cls-21]",
+        "prt=>TABLE#id-33.cls-3 & curr=>TBODY & Fun=>container",
+        "moving data to [TABLE#id-33.cls-3] from [TBODY#id-35.cls-66]",
+        "prt=>BODY#id-65.cls-66 & curr=>TABLE & Fun=>container",
+        "moving data to [BODY#id-65.cls-66] from [TABLE#id-33.cls-3]"
+    ],
+    "TD#id-69.cls-47": {
+        "shortTagName": "TD",
         "images": [],
-        "headings": [],
+        "headings": [
+            "Product details"
+        ],
         "anchors": [
             {
-                "text": "HOME",
-                "href": "#"
+                "text": "Women's T-Shirts",
+                "href": "/gp/bestsellers/fashion/5131902051/ref=pd_zg_hrsr_fashion"
             },
             {
-                "text": "BAND",
-                "href": "#band"
-            },
-            {
-                "text": "TOUR",
-                "href": "#tour"
-            },
-            {
-                "text": "CONTACT",
-                "href": "#contact"
+                "text": "See Top 100 in Clothing, Shoes & Accessories",
+                "href": "/gp/bestsellers/fashion/ref=pd_zg_ts_fashion"
             }
         ],
-        "texts": [],
-        "children": [
-            "DIV#id-16.cls-6"
-        ]
+        "texts": [
+            "#37",
+            "Amazon Bestsellers Rank:",
+            ")",
+            "Average Customer Review:",
+            "Be the first to review this item",
+            "Date first available at Amazon.com.au:",
+            "1 July 2019",
+            "ASIN:",
+            "B07TWB5355",
+            "Item Model Number:",
+            "GTENZ1"
+        ],
+        "children": []
     },
-    "NoProcessTag": "undefined, BUTTON, B, B, B, B, BUTTON, B, BUTTON, B, BUTTON, LABEL, LABEL, BUTTON, BUTTON, BUTTON, FORM, SCRIPT",
-    "DIV#id-16.cls-6": {
-        "shortTagName": "DIV",
+    "SPAN#id-78.cls-59": {
+        "shortTagName": "SPAN",
         "images": [],
         "headings": [],
         "anchors": [
             {
-                "text": "Merchandise",
-                "href": "#"
-            },
-            {
-                "text": "Extras",
-                "href": "#"
-            },
-            {
-                "text": "Media",
-                "href": "#"
+                "text": "Be the first to review this item",
+                "href": "https://www.amazon.com.au/review/create-review/ref=acr_dpproductdetail_solicit?ie=UTF8&asin=B07TWB5355"
             }
         ],
         "texts": [],
         "children": []
     },
-    "BODY#id-94.cls-6": {
+    "BODY#id-65.cls-66": {
         "shortTagName": "BODY",
         "images": [],
         "headings": [],
         "anchors": [],
         "texts": [],
         "children": [
-            "DIV#id-5.cls-61",
-            "DIV#navDemo.cls-55",
-            "DIV#id-45.cls-54",
-            "FOOTER#id-57.cls-41"
+            "TD#id-69.cls-47"
         ]
-    },
-    "DIV#navDemo.cls-55": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [
-            {
-                "text": "BAND",
-                "href": "#band"
-            },
-            {
-                "text": "TOUR",
-                "href": "#tour"
-            },
-            {
-                "text": "CONTACT",
-                "href": "#contact"
-            },
-            {
-                "text": "MERCH",
-                "href": "#"
-            }
-        ],
-        "texts": [],
-        "children": []
-    },
-    "DIV#id-23.cls-36": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [
-            "Los Angeles"
-        ],
-        "anchors": [],
-        "texts": [
-            "We had the best time playing at Venice Beach!"
-        ],
-        "children": []
-    },
-    "DIV#id-45.cls-54": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [],
-        "children": [
-            "DIV#id-23.cls-36",
-            "DIV#id-61.cls-46",
-            "DIV#id-60.cls-40",
-            "DIV#band.cls-60",
-            "DIV#id-26.cls-93",
-            "DIV#id-56.cls-28",
-            "DIV#contact.cls-84"
-        ]
-    },
-    "DIV#id-61.cls-46": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [
-            "New York"
-        ],
-        "anchors": [],
-        "texts": [
-            "The atmosphere in New York is lorem ipsum."
-        ],
-        "children": []
-    },
-    "DIV#id-60.cls-40": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [
-            "Chicago"
-        ],
-        "anchors": [],
-        "texts": [
-            "Thank you, Chicago - A night we won't forget."
-        ],
-        "children": []
-    },
-    "DIV#band.cls-60": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [
-            "THE BAND"
-        ],
-        "anchors": [],
-        "texts": [
-            "We love music",
-            "We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        ],
-        "children": [
-            "DIV#id-85.cls-39"
-        ]
-    },
-    "DIV#id-85.cls-39": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [
-            "Name",
-            "Name",
-            "Name"
-        ],
-        "children": []
-    },
-    "DIV#id-26.cls-93": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [
-            "TOUR DATES"
-        ],
-        "anchors": [],
-        "texts": [
-            "Remember to book your tickets!"
-        ],
-        "children": [
-            "UL#id-90.cls-16",
-            "DIV#id-21.cls-87"
-        ]
-    },
-    "LI#id-64.cls-39": {
-        "shortTagName": "LI",
-        "images": [],
-        "headings": [
-            "September"
-        ],
-        "anchors": [],
-        "texts": [
-            "Sold out"
-        ],
-        "children": []
-    },
-    "UL#id-90.cls-16": {
-        "shortTagName": "UL",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [],
-        "children": [
-            "LI#id-64.cls-39",
-            "LI#id-18.cls-36",
-            "LI#id-10.cls-9"
-        ]
-    },
-    "LI#id-18.cls-36": {
-        "shortTagName": "LI",
-        "images": [],
-        "headings": [
-            "October"
-        ],
-        "anchors": [],
-        "texts": [
-            "Sold out"
-        ],
-        "children": []
-    },
-    "LI#id-10.cls-9": {
-        "shortTagName": "LI",
-        "images": [],
-        "headings": [
-            "November"
-        ],
-        "anchors": [],
-        "texts": [
-            "3"
-        ],
-        "children": []
-    },
-    "DIV#id-89.cls-9": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [
-            "New York",
-            "Fri 27 Nov 2016",
-            "Praesent tincidunt sed tellus ut rutrum sed vitae justo."
-        ],
-        "children": []
-    },
-    "DIV#id-21.cls-87": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [],
-        "children": [
-            "DIV#id-89.cls-9",
-            "DIV#id-50.cls-2",
-            "DIV#id-80.cls-91"
-        ]
-    },
-    "DIV#id-50.cls-2": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [
-            "Paris",
-            "Sat 28 Nov 2016",
-            "Praesent tincidunt sed tellus ut rutrum sed vitae justo."
-        ],
-        "children": []
-    },
-    "DIV#id-80.cls-91": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [
-            "San Francisco",
-            "Sun 29 Nov 2016",
-            "Praesent tincidunt sed tellus ut rutrum sed vitae justo."
-        ],
-        "children": []
-    },
-    "HEADER#id-42.cls-43": {
-        "shortTagName": "HEADER",
-        "images": [],
-        "headings": [
-            "Tickets"
-        ],
-        "anchors": [],
-        "texts": [
-            "×"
-        ],
-        "children": []
-    },
-    "DIV#id-56.cls-28": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [],
-        "children": [
-            "HEADER#id-42.cls-43",
-            "DIV#id-8.cls-52"
-        ]
-    },
-    "DIV#id-8.cls-52": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [
-            {
-                "text": "help?",
-                "href": "#"
-            }
-        ],
-        "texts": [
-            "Tickets, $15 per person",
-            "Send To",
-            "Need help?"
-        ],
-        "children": []
-    },
-    "DIV#contact.cls-84": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [
-            "CONTACT"
-        ],
-        "anchors": [],
-        "texts": [
-            "Fan? Drop a note!"
-        ],
-        "children": [
-            "DIV#id-29.cls-69"
-        ]
-    },
-    "DIV#id-100.cls-83": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [
-            "Chicago, US Phone: +00 151515 Email: mail@mail.com"
-        ],
-        "anchors": [],
-        "texts": [],
-        "children": []
-    },
-    "DIV#id-29.cls-69": {
-        "shortTagName": "DIV",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [],
-        "children": [
-            "DIV#id-100.cls-83"
-        ]
-    },
-    "FOOTER#id-57.cls-41": {
-        "shortTagName": "FOOTER",
-        "images": [],
-        "headings": [],
-        "anchors": [
-            {
-                "text": "w3.css",
-                "href": "https://www.w3schools.com/w3css/default.asp"
-            }
-        ],
-        "texts": [
-            "Powered by w3.css"
-        ],
-        "children": []
     }
 }

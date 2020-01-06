@@ -11,8 +11,8 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
     const browserInstance = await browser.launch(puppeteer, true);
     const pageInstance = await browser.newPage(browserInstance);
 
-    const URL = "https://www.w3schools.com/w3css/tryw3css_templates_band.htm";
-    //"C:\\Users\\Ritesh Raj\\Desktop\\Temp\\Web-Scrapping\\src\\TestHTMLtemplate\\PlayGround.html";
+    //const URL = "https://www.amazon.com.au/Rip-Curl-Womens-Plains-TEE/dp/B07TWB5355/ref=br_asw_pdt-10/355-6876911-7043760?pf_rd_m=ANEGB3WVEVKZB&pf_rd_s=&pf_rd_r=7HHSB45DWCFCWBG12N5D&pf_rd_t=36701&pf_rd_p=34994ded-8732-4a24-9b68-d51f6bcb05fd&pf_rd_i=desktop";
+    const URL = "C:\\Users\\Ritesh Raj\\Desktop\\Temp\\Web-Scrapping\\src\\TestHTMLtemplate\\PlayGround.html";
 
     try {
         await page.goto(pageInstance, URL);
@@ -20,134 +20,148 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
 
         const EVALUATIONFUNC = () => {
             var elements = {}; // fullTagName : new ElementInfoObject()
+            elements['nonProcessTags'] = [];
+            elements['logs'] = [];
             //traverse depth first. FIrst process all children and comes to parent
             //before recursive call, traverse top to bottom (all the way) then left to right
             //after recursive call, traverse in left to right (all the way) then goes up
             var tdf = (ele) => {
-                $(ele).children().each(function () {
-                    if ($(this).pruneText() != '') {
-                        //setting identifier
-                        switch ($(this).prop('tagName')) {
-                            case 'LI':
-                            case 'DIV':
-                                let loneText = $(this).clone().children().remove().end().pruneText();
-                                if (loneText != '') {
-                                    $(this).append('<h6>' + loneText + '</h6>');
+                $(ele).contents().each(function () {
+                    //setting identifier
+                    let self = this;
+                    if (self.nodeType != 3 && self.nodeType != 1) {
+                        return;
+                    }
+                    if ($(self).pruneText().length < 1) {
+                        return;
+                    }
+                    if (self.nodeType == 3) {
+                        if ($(self).siblings().length > 0) {
+                            self = $(self).wrap('<p></p>').parent();
+                        }
+                        else {
+                            return;
+                        }
+                    }
+                    if ($(self).width() < 10 || $(self).height() < 10) {
+                        return;
+                    }
+                    if (['SCRIPT', 'NOSCRIPT', 'STYLE'].includes($(self).prop('tagName'))) {
+                        return;
+                    }
+                    $(self).setIdentifier();
+                    /*
+                    switch ($(this).prop('tagName')) {
+                        case 'ARTICLE':
+                        case 'SECTION':
+                        case 'FOOTER':
+                        case 'HEADER':
+                        case 'DIV':
+                            $(this).contents().filter(function () { return this.nodeType == 3 && $(this).pruneText().length > 1; }).wrap("<p></p>");
+                        case 'TABLE':
+                        case 'TR':
+                        case 'UL':
+                        case 'OL':
+                            $(this).setIdentifier();
+                            break;
+                        case 'IMG':
+                            //TODO: if the Parent element has no identifier, then add one
+                            break;
+                        case 'P':
+                            let pContent = $(this).pruneText();
+                            $(this).html(pContent);
+                            break;
+                        default:
+                            $(this).children().each(function () {
+                                if (/H[1-6]/.test($(this).prop('tagName'))) {
                                     $(this).setIdentifier();
+                                    return false;
                                 }
-                                else {
-                                    let textCounter = 0;
-                                    let self = this;
-                                    $(this).children().each(function () {
-                                        if ($(this).pruneText() != '') {
-                                            if (/H[1-6]/.test($(this).prop('tagName'))) {
-                                                $(self).setIdentifier();
-                                                return false;
-                                            }
-                                            else {
-                                                if ($(this).prop('tagName') != 'BUTTON') { textCounter++; }
-                                                if (textCounter > 1) {
-                                                    $(self).setIdentifier();
-                                                    return false;
-                                                }
-                                            }
-                                        }
-                                    })
-                                }
-                                break;
-                            case 'ARTICLE':
-                            case 'SECTION':
-                            case 'FOOTER':
-                            case 'HEADER':
-                            case 'TABLE':
-                            case 'TR':
-                            case 'UL':
-                            case 'OL':
-                                $(this).setIdentifier();
-                                break;
-                            case 'IMG':
-                                //TODO: if the Parent element has no identifier, then add one
-                                break;
-                        }
-                        //recursive call
-                        tdf($(this));
-                        switch ($(this).prop('tagName')) {
-                            case 'H1':
-                            case 'H2':
-                            case 'H3':
-                            case 'H4':
-                            case 'H5':
-                            case 'H6':
-                                WriteToElementObject($(this), 'heading');
-                                break;
-                            case 'A':
-                                WriteToElementObject($(this), 'anchor');
-                                break;
-                            case 'STRONG':
-                            case 'EM':
-                            case 'I':
-                            case 'SPAN':
-                                $(this).parent().prop('tagName') == 'P' ? $(this).replaceWith($(this).pruneText()) : WriteToElementObject($(this), 'text');
-                                break;
-                            case 'TH':
-                            case 'TD':
-                            case 'P':
-                                WriteToElementObject($(this), 'text');
-                                break;
-                            case 'UL':
-                            case 'OL':
-                            case 'LI':
-                            case 'TABLE':
-                            case 'TR':
-                            case 'ARTICLE':
-                            case 'SECTION':
-                            case 'FOOTER':
-                            case 'HEADER':
-                                WriteToElementObject($(this), 'container');
-                                break;
-                            case 'DIV':
-                                if ($(this).getIdentifier() != undefined) {
-                                    WriteToElementObject($(this), 'container');
-                                }
-                                break;
-                            case 'IMG':
-                                WriteToElementObject($(this), 'image');
-                                break;
-                            default:
-                                elements['NoProcessTag'] += ', ' + $(this).prop('tagName');
-                                break;
-                        }
+                            })
+                            break;
+                    }
+                    */
+                    //recursive call
+                    tdf($(self));
+                    switch ($(self).prop('tagName')) {
+                        case 'H1':
+                        case 'H2':
+                        case 'H3':
+                        case 'H4':
+                        case 'H5':
+                        case 'H6':
+                            WriteToElementObject($(self), 'heading');
+                            break;
+                        case 'A':
+                            WriteToElementObject($(self), 'anchor');
+                            $(self).replaceWith($(self).text());
+                            break;
+                        case 'IMG':
+                            WriteToElementObject($(self), 'image');
+                            break;
+                        default:
+                            WriteToElementObject($(self), 'container');
+                            elements['nonProcessTags'].push($(self).prop('tagName'));
+                            break;
                     }
                 });
             };
             //mark the container parent for a given current element(child)
             function WriteToElementObject(currentEle, FunctionType) {
-                // fullTagName : new ElementInfoObject()
-                let fullTagName = undefined;
+                // parentFullTagName : new ElementInfoObject()
+                let parentFullTagName;
                 currentEle.parents().each(function () {
-                    fullTagName = $(this).getIdentifier();
-                    if (fullTagName != undefined) {
-                        if (elements[fullTagName] == undefined) {
-                            elements[fullTagName] = new ElementInfoObject($(this).prop('tagName'));
+                    if ($(this).getIdentifier() != undefined) {
+                        parentFullTagName = $(this).getIdentifier();
+                        elements['logs'].push('prt=>' + parentFullTagName + ' & curr=>' + currentEle.prop('tagName') + ' & Fun=>' + FunctionType);
+                        if (elements[parentFullTagName] == undefined) {
+                            elements[parentFullTagName] = new ElementInfoObject($(this).prop('tagName'));
                         }
                         return false;
                     }
-                });
+                })
+                let text, href;
                 switch (FunctionType) {
-                    case 'text':
-                        elements[fullTagName].texts.push(currentEle.pruneText());
-                        break;
                     case 'heading':
-                        elements[fullTagName].headings.push(currentEle.pruneText());
+                        elements[parentFullTagName].headings.push(currentEle.pruneText());
                         break;
                     case 'anchor':
-                        elements[fullTagName].anchors.push(new AnchorObject(currentEle.pruneText(), currentEle.attr('href')));
+                        text = currentEle.pruneText();
+                        href = currentEle.attr('href');
+                        if (text.length > 1 && href != undefined && !href.startsWith('#')) {
+                            elements[parentFullTagName].anchors.push(new AnchorObject(text, href));
+                        }
                         break;
                     case 'image':
-                        elements[fullTagName].images.push(new ImageObject(currentEle.attr('alt'), currentEle.attr('src')));
+                        elements[parentFullTagName].images.push(new ImageObject(currentEle.attr('alt'), currentEle.attr('src')));
                         break;
                     case 'container':
-                        elements[fullTagName].children.push($(currentEle).getIdentifier());
+                        if ($(currentEle).html() == $(currentEle).text()) {
+                            elements[parentFullTagName].texts.push(currentEle.pruneText());
+                            break;
+                        }
+                        childFullTagName = $(currentEle).getIdentifier();
+                        if (elements[childFullTagName] != undefined) {
+                            if (elements[childFullTagName].headings.length > 0 || elements[childFullTagName].children.length > 1) {
+                                elements[parentFullTagName].children.push($(currentEle).getIdentifier());
+                            }
+                            else {
+                                elements['logs'].push('moving data to [' + parentFullTagName + '] from [' + childFullTagName + ']');
+                                elements[childFullTagName].images.reverse().forEach(function (item) {
+                                    elements[parentFullTagName].images.unshift(item);
+                                });
+                                elements[childFullTagName].anchors.reverse().forEach(function (item) {
+                                    elements[parentFullTagName].anchors.unshift(item);
+                                });
+                                elements[childFullTagName].texts.reverse().forEach(function (item) {
+                                    elements[parentFullTagName].texts.unshift(item);
+                                });
+                                elements[childFullTagName].children.reverse().forEach(function (item) {
+                                    elements[parentFullTagName].children.unshift(item);
+                                });
+                                elements[childFullTagName] = undefined;
+                            }
+                        }
                         break;
                 }
             }
@@ -187,6 +201,10 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
             })
             $('body').setIdentifier();
             tdf($('body'));
+            // removing duplicates from elements['nonProcessTags']
+            elements['nonProcessTags'] = elements['nonProcessTags'].filter(function (item, pos) {
+                return elements['nonProcessTags'].indexOf(item) == pos;
+            });
             return elements;
         };
 
