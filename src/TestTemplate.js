@@ -32,7 +32,7 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
                         //Element
                         elements['ProcessTags'].push($(this).prop('tagName'));
                         if ($(this).prop('display') != 'none' && $(this).prop('visibility') != 'hidden') {
-                            if ($(this).css('border') == '') {
+                            if (!$(this).css('border').startsWith('0')) {
                                 elements['Data'].push(new AnyElement(
                                     $(this).offset().left,
                                     $(this).offset().top,
