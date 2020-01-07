@@ -1,114 +1,1116 @@
 {
-    "nonProcessTags": [
-        "B",
-        "P",
-        "LI",
-        "SPAN",
-        "UL",
+    "ProcessTags": [
         "DIV",
-        "TD",
-        "TR",
-        "TBODY",
-        "TABLE"
+        "A",
+        "H3",
+        "BR",
+        "CITE",
+        "SPAN",
+        "OL",
+        "LI",
+        "EM",
+        "H4"
     ],
-    "logs": [
-        "prt=>TD#id-69.cls-47 & curr=>H2 & Fun=>heading",
-        "prt=>LI#id-91.cls-57 & curr=>B & Fun=>container",
-        "prt=>LI#id-91.cls-57 & curr=>P & Fun=>container",
-        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
-        "moving data to [UL#id-95.cls-62] from [LI#id-91.cls-57]",
-        "prt=>LI#id-99.cls-13 & curr=>B & Fun=>container",
-        "prt=>LI#id-99.cls-13 & curr=>P & Fun=>container",
-        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
-        "moving data to [UL#id-95.cls-62] from [LI#id-99.cls-13]",
-        "prt=>LI#id-23.cls-84 & curr=>B & Fun=>container",
-        "prt=>LI#id-23.cls-84 & curr=>P & Fun=>container",
-        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
-        "moving data to [UL#id-95.cls-62] from [LI#id-23.cls-84]",
-        "prt=>LI#id-58.cls-65 & curr=>B & Fun=>container",
-        "prt=>SPAN#id-78.cls-59 & curr=>A & Fun=>anchor",
-        "prt=>LI#id-58.cls-65 & curr=>SPAN & Fun=>container",
-        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
-        "moving data to [UL#id-95.cls-62] from [LI#id-58.cls-65]",
-        "prt=>LI#SalesRank.cls-19 & curr=>B & Fun=>container",
-        "prt=>LI#SalesRank.cls-19 & curr=>P & Fun=>container",
-        "prt=>LI#SalesRank.cls-19 & curr=>A & Fun=>anchor",
-        "prt=>LI#SalesRank.cls-19 & curr=>P & Fun=>container",
-        "prt=>LI#id-7.cls-5 & curr=>SPAN & Fun=>container",
-        "prt=>SPAN#id-49.cls-71 & curr=>P & Fun=>container",
-        "prt=>SPAN#id-49.cls-71 & curr=>A & Fun=>anchor",
-        "prt=>LI#id-7.cls-5 & curr=>SPAN & Fun=>container",
-        "moving data to [LI#id-7.cls-5] from [SPAN#id-49.cls-71]",
-        "prt=>UL#id-24.cls-46 & curr=>LI & Fun=>container",
-        "moving data to [UL#id-24.cls-46] from [LI#id-7.cls-5]",
-        "prt=>LI#SalesRank.cls-19 & curr=>UL & Fun=>container",
-        "moving data to [LI#SalesRank.cls-19] from [UL#id-24.cls-46]",
-        "prt=>UL#id-95.cls-62 & curr=>LI & Fun=>container",
-        "moving data to [UL#id-95.cls-62] from [LI#SalesRank.cls-19]",
-        "prt=>DIV#id-9.cls-34 & curr=>UL & Fun=>container",
-        "moving data to [DIV#id-9.cls-34] from [UL#id-95.cls-62]",
-        "prt=>TD#id-69.cls-47 & curr=>DIV & Fun=>container",
-        "moving data to [TD#id-69.cls-47] from [DIV#id-9.cls-34]",
-        "prt=>TR#id-22.cls-21 & curr=>TD & Fun=>container",
-        "prt=>TBODY#id-35.cls-66 & curr=>TR & Fun=>container",
-        "moving data to [TBODY#id-35.cls-66] from [TR#id-22.cls-21]",
-        "prt=>TABLE#id-33.cls-3 & curr=>TBODY & Fun=>container",
-        "moving data to [TABLE#id-33.cls-3] from [TBODY#id-35.cls-66]",
-        "prt=>BODY#id-65.cls-66 & curr=>TABLE & Fun=>container",
-        "moving data to [BODY#id-65.cls-66] from [TABLE#id-33.cls-3]"
-    ],
-    "TD#id-69.cls-47": {
-        "shortTagName": "TD",
-        "images": [],
-        "headings": [
-            "Product details"
-        ],
-        "anchors": [
-            {
-                "text": "Women's T-Shirts",
-                "href": "/gp/bestsellers/fashion/5131902051/ref=pd_zg_hrsr_fashion"
-            },
-            {
-                "text": "See Top 100 in Clothing, Shoes & Accessories",
-                "href": "/gp/bestsellers/fashion/ref=pd_zg_ts_fashion"
-            }
-        ],
-        "texts": [
-            "#37",
-            "Amazon Bestsellers Rank:",
-            ")",
-            "Average Customer Review:",
-            "Be the first to review this item",
-            "Date first available at Amazon.com.au:",
-            "1 July 2019",
-            "ASIN:",
-            "B07TWB5355",
-            "Item Model Number:",
-            "GTENZ1"
-        ],
-        "children": []
-    },
-    "SPAN#id-78.cls-59": {
-        "shortTagName": "SPAN",
-        "images": [],
-        "headings": [],
-        "anchors": [
-            {
-                "text": "Be the first to review this item",
-                "href": "https://www.amazon.com.au/review/create-review/ref=acr_dpproductdetail_solicit?ie=UTF8&asin=B07TWB5355"
-            }
-        ],
-        "texts": [],
-        "children": []
-    },
-    "BODY#id-65.cls-66": {
-        "shortTagName": "BODY",
-        "images": [],
-        "headings": [],
-        "anchors": [],
-        "texts": [],
-        "children": [
-            "TD#id-69.cls-47"
-        ]
-    }
+    "Data": [
+        {
+            "left": 8,
+            "top": 18.71875,
+            "width": 0,
+            "height": 0,
+            "text": "HTML style Attribute - W3Schools\n                            https://www.w3schools.com › tags ›\n                                    att_style",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.r > a",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/tags/att_style.asp"
+        },
+        {
+            "left": 8,
+            "top": 18.71875,
+            "width": 784,
+            "height": 22,
+            "text": "HTML style Attribute - W3Schools",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.r > a > h3.LC20lb",
+            "eleType": "H"
+        },
+        {
+            "left": 8,
+            "top": 77.4375,
+            "width": 285,
+            "height": 17,
+            "text": "https://www.w3schools.com › tags ›\n                                    att_style",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.r > a > div.TbwUpd > cite.iUh30.bc > span"
+        },
+        {
+            "left": 8,
+            "top": 111.4375,
+            "width": 0,
+            "height": 0,
+            "text": "",
+            "path": "a#am-b2",
+            "eleType": "A",
+            "address": "#"
+        },
+        {
+            "left": 48,
+            "top": 111.4375,
+            "width": 48,
+            "height": 17,
+            "text": "Cached",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(0) > a.fl",
+            "eleType": "A",
+            "address": "https://webcache.googleusercontent.com/search?q=cache:hD0JQpiUh1kJ:https://www.w3schools.com/tags/att_style.asp+&cd=3&hl=en&ct=clnk&gl=au"
+        },
+        {
+            "left": 48,
+            "top": 111.4375,
+            "width": 48,
+            "height": 17,
+            "text": "Cached",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(0) > a.fl > span"
+        },
+        {
+            "left": 48,
+            "top": 129.4375,
+            "width": 47,
+            "height": 17,
+            "text": "Similar",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(1) > a.fl",
+            "eleType": "A",
+            "address": "/search?sxsrf=ACYBGNRu1Q6HR3O2LVOhsJKHebNFJO4B0A:1578388623175&q=related:https://www.w3schools.com/tags/att_style.asp+style+in+element&tbo=1&sa=X&ved=2ahUKEwjBtM7pk_HmAhWRV30KHU1rCcAQHzACegQIARAG&sxsrf=ACYBGNRu1Q6HR3O2LVOhsJKHebNFJO4B0A:1578388623175"
+        },
+        {
+            "left": 48,
+            "top": 129.4375,
+            "width": 47,
+            "height": 17,
+            "text": "Similar",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(1) > a.fl > span"
+        },
+        {
+            "left": 8,
+            "top": 163.4375,
+            "width": 29,
+            "height": 17,
+            "text": "The",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span"
+        },
+        {
+            "left": 36.875,
+            "top": 163.4375,
+            "width": 29,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > em:eq(0) > span"
+        },
+        {
+            "left": 66.203125,
+            "top": 163.4375,
+            "width": 181,
+            "height": 17,
+            "text": "attribute specifies an inline",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span:eq(1)"
+        },
+        {
+            "left": 247.03125,
+            "top": 163.4375,
+            "width": 29,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > em:eq(1) > span"
+        },
+        {
+            "left": 276.359375,
+            "top": 163.4375,
+            "width": 46,
+            "height": 17,
+            "text": "for an",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span:eq(2)"
+        },
+        {
+            "left": 322.125,
+            "top": 163.4375,
+            "width": 50,
+            "height": 17,
+            "text": "element",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > em:eq(2) > span"
+        },
+        {
+            "left": 371.875,
+            "top": 163.4375,
+            "width": 36,
+            "height": 17,
+            "text": ". The",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span:eq(3)"
+        },
+        {
+            "left": 408.46875,
+            "top": 163.4375,
+            "width": 30,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > em:eq(3) > span"
+        },
+        {
+            "left": 437.796875,
+            "top": 163.4375,
+            "width": 174,
+            "height": 17,
+            "text": "attribute will override any",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span:eq(4)"
+        },
+        {
+            "left": 612.40625,
+            "top": 163.4375,
+            "width": 30,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > em:eq(4) > span"
+        },
+        {
+            "left": 641.734375,
+            "top": 163.4375,
+            "width": 112,
+            "height": 17,
+            "text": "set\n                                globally, e.g.",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span:eq(5)"
+        },
+        {
+            "left": 754.015625,
+            "top": 163.4375,
+            "width": 36,
+            "height": 17,
+            "text": "styles",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > em:eq(5) > span"
+        },
+        {
+            "left": 8,
+            "top": 181.4375,
+            "width": 111,
+            "height": 17,
+            "text": "specified in the <",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span:eq(6)"
+        },
+        {
+            "left": 118.765625,
+            "top": 181.4375,
+            "width": 29,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > em:eq(6) > span"
+        },
+        {
+            "left": 148.09375,
+            "top": 181.4375,
+            "width": 145,
+            "height": 17,
+            "text": "> tag or in an\n                                external",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span:eq(7)"
+        },
+        {
+            "left": 293.0625,
+            "top": 181.4375,
+            "width": 29,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > em:eq(7) > span"
+        },
+        {
+            "left": 322.390625,
+            "top": 181.4375,
+            "width": 41,
+            "height": 17,
+            "text": "sheet.",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > span.st > span:eq(8)"
+        },
+        {
+            "left": 8,
+            "top": 199.4375,
+            "width": 211,
+            "height": 17,
+            "text": "You visited this page on 6/01/20.",
+            "path": "div#srg > div.g:eq(0) > div > div.rc > div.s > div > div.TXwUJf > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html style attribute\n                                    list",
+            "path": "div#ed_5 > div.AUiS2 > div:eq(0) > div:eq(0) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "which is the correct\n                                    css syntax?",
+            "path": "div#ed_5 > div.AUiS2 > div:eq(0) > div:eq(1) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html style attribute\n                                    multiple",
+            "path": "div#ed_5 > div.AUiS2 > div:eq(0) > div:eq(2) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html style tag in body",
+            "path": "div#ed_5 > div.AUiS2 > div:eq(0) > div:eq(3) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "important in html style",
+            "path": "div#ed_5 > div.AUiS2 > div:eq(0) > div:eq(4) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "how do you insert a\n                                    comment in a css file?",
+            "path": "div#ed_5 > div.AUiS2 > div:eq(0) > div:eq(5) > span"
+        },
+        {
+            "left": 8,
+            "top": 238.703125,
+            "width": 784,
+            "height": 18,
+            "text": "People also search for",
+            "path": "div#ed_5 > div.AUiS2 > div:eq(1) > div.d8lLoc > h4.eJ7tvc",
+            "eleType": "H"
+        },
+        {
+            "left": 8,
+            "top": 277.96875,
+            "width": 0,
+            "height": 0,
+            "text": "HTML CSS - W3Schools\n                            https://www.w3schools.com › html ›\n                                    html_css",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.r > a",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/html_css.asp"
+        },
+        {
+            "left": 8,
+            "top": 277.96875,
+            "width": 784,
+            "height": 22,
+            "text": "HTML CSS - W3Schools",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.r > a > h3.LC20lb",
+            "eleType": "H"
+        },
+        {
+            "left": 8,
+            "top": 336.6875,
+            "width": 289,
+            "height": 17,
+            "text": "https://www.w3schools.com › html ›\n                                    html_css",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.r > a > div.TbwUpd > cite.iUh30.bc > span"
+        },
+        {
+            "left": 8,
+            "top": 370.6875,
+            "width": 0,
+            "height": 0,
+            "text": "",
+            "path": "a#am-b3",
+            "eleType": "A",
+            "address": "#"
+        },
+        {
+            "left": 48,
+            "top": 370.6875,
+            "width": 48,
+            "height": 17,
+            "text": "Cached",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(0) > a.fl",
+            "eleType": "A",
+            "address": "https://webcache.googleusercontent.com/search?q=cache:gZX0J2QgfpIJ:https://www.w3schools.com/html/html_css.asp+&cd=4&hl=en&ct=clnk&gl=au"
+        },
+        {
+            "left": 48,
+            "top": 370.6875,
+            "width": 48,
+            "height": 17,
+            "text": "Cached",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(0) > a.fl > span"
+        },
+        {
+            "left": 48,
+            "top": 388.6875,
+            "width": 47,
+            "height": 17,
+            "text": "Similar",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(1) > a.fl",
+            "eleType": "A",
+            "address": "/search?sxsrf=ACYBGNRu1Q6HR3O2LVOhsJKHebNFJO4B0A:1578388623175&q=related:https://www.w3schools.com/html/html_css.asp+style+in+element&tbo=1&sa=X&ved=2ahUKEwjBtM7pk_HmAhWRV30KHU1rCcAQHzADegQIAxAG&sxsrf=ACYBGNRu1Q6HR3O2LVOhsJKHebNFJO4B0A:1578388623175"
+        },
+        {
+            "left": 48,
+            "top": 388.6875,
+            "width": 47,
+            "height": 17,
+            "text": "Similar",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(1) > a.fl > span"
+        },
+        {
+            "left": 8,
+            "top": 422.6875,
+            "width": 338,
+            "height": 17,
+            "text": "Styling HTML with CSS. CSS stands for Cascading",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > span.st > span"
+        },
+        {
+            "left": 345.65625,
+            "top": 422.6875,
+            "width": 31,
+            "height": 17,
+            "text": "Style",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > span.st > em:eq(0) > span"
+        },
+        {
+            "left": 376.75,
+            "top": 422.6875,
+            "width": 230,
+            "height": 17,
+            "text": "Sheets. CSS\n                                describes how HTML",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > span.st > span:eq(1)"
+        },
+        {
+            "left": 606.8125,
+            "top": 422.6875,
+            "width": 56,
+            "height": 17,
+            "text": "elements",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > span.st > em:eq(1) > span"
+        },
+        {
+            "left": 8,
+            "top": 422.6875,
+            "width": 779,
+            "height": 35,
+            "text": "are to be displayed on screen, paper, or in other\n                                media.",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > span.st > span:eq(2)"
+        },
+        {
+            "left": 8,
+            "top": 458.6875,
+            "width": 0,
+            "height": 17,
+            "text": "‎",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > span"
+        },
+        {
+            "left": 8,
+            "top": 458.6875,
+            "width": 85,
+            "height": 17,
+            "text": "HTML\n                                    Links",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > a.fl:eq(0)",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/html_links.asp"
+        },
+        {
+            "left": 8,
+            "top": 458.6875,
+            "width": 85,
+            "height": 17,
+            "text": "HTML\n                                    Links",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > a.fl:eq(0) > span"
+        },
+        {
+            "left": 93.1875,
+            "top": 458.6875,
+            "width": 13,
+            "height": 17,
+            "text": "· ‎",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > span:eq(1)"
+        },
+        {
+            "left": 106.234375,
+            "top": 458.6875,
+            "width": 93,
+            "height": 17,
+            "text": "Try\n                                    it Yourself",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > a.fl:eq(1)",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_internal"
+        },
+        {
+            "left": 106.234375,
+            "top": 458.6875,
+            "width": 93,
+            "height": 17,
+            "text": "Try\n                                    it Yourself",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > a.fl:eq(1) > span"
+        },
+        {
+            "left": 199.453125,
+            "top": 458.6875,
+            "width": 14,
+            "height": 17,
+            "text": "· ‎",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > span:eq(2)"
+        },
+        {
+            "left": 212.78125,
+            "top": 458.6875,
+            "width": 150,
+            "height": 17,
+            "text": "HTML\n                                    with inline CSS",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > a.fl:eq(2)",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_inline"
+        },
+        {
+            "left": 212.78125,
+            "top": 458.6875,
+            "width": 150,
+            "height": 17,
+            "text": "HTML\n                                    with inline CSS",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > a.fl:eq(2) > span"
+        },
+        {
+            "left": 362.875,
+            "top": 458.6875,
+            "width": 13,
+            "height": 17,
+            "text": "· ‎",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > span:eq(3)"
+        },
+        {
+            "left": 376.203125,
+            "top": 458.6875,
+            "width": 146,
+            "height": 17,
+            "text": "HTML\n                                    with CSS fonts",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > a.fl:eq(3)",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_fonts"
+        },
+        {
+            "left": 376.203125,
+            "top": 458.6875,
+            "width": 146,
+            "height": 17,
+            "text": "HTML\n                                    with CSS fonts",
+            "path": "div#srg > div.g:eq(1) > div > div.rc > div.s > div > div.osl > a.fl:eq(3) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "css examples with\n                                    source code",
+            "path": "div#ed_8 > div.AUiS2 > div:eq(0) > div:eq(0) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "internal css in html",
+            "path": "div#ed_8 > div.AUiS2 > div:eq(0) > div:eq(1) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "css stylesheet template",
+            "path": "div#ed_8 > div.AUiS2 > div:eq(0) > div:eq(2) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "link javascript to html",
+            "path": "div#ed_8 > div.AUiS2 > div:eq(0) > div:eq(3) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "css syntax",
+            "path": "div#ed_8 > div.AUiS2 > div:eq(0) > div:eq(4) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "inline css editor",
+            "path": "div#ed_8 > div.AUiS2 > div:eq(0) > div:eq(5) > span"
+        },
+        {
+            "left": 8,
+            "top": 497.953125,
+            "width": 784,
+            "height": 18,
+            "text": "People also search for",
+            "path": "div#ed_8 > div.AUiS2 > div:eq(1) > div.d8lLoc > h4.eJ7tvc",
+            "eleType": "H"
+        },
+        {
+            "left": 8,
+            "top": 537.21875,
+            "width": 0,
+            "height": 0,
+            "text": "HTML Styles - W3Schools\n                            https://www.w3schools.com › html ›\n                                    html_styles",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.r > a",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/html_styles.asp"
+        },
+        {
+            "left": 8,
+            "top": 537.21875,
+            "width": 784,
+            "height": 22,
+            "text": "HTML Styles - W3Schools",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.r > a > h3.LC20lb",
+            "eleType": "H"
+        },
+        {
+            "left": 8,
+            "top": 595.9375,
+            "width": 305,
+            "height": 17,
+            "text": "https://www.w3schools.com › html ›\n                                    html_styles",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.r > a > div.TbwUpd > cite.iUh30.bc > span"
+        },
+        {
+            "left": 8,
+            "top": 629.9375,
+            "width": 0,
+            "height": 0,
+            "text": "",
+            "path": "a#am-b4",
+            "eleType": "A",
+            "address": "#"
+        },
+        {
+            "left": 48,
+            "top": 629.9375,
+            "width": 48,
+            "height": 17,
+            "text": "Cached",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(0) > a.fl",
+            "eleType": "A",
+            "address": "https://webcache.googleusercontent.com/search?q=cache:5ijpS4OOeFwJ:https://www.w3schools.com/html/html_styles.asp+&cd=5&hl=en&ct=clnk&gl=au"
+        },
+        {
+            "left": 48,
+            "top": 629.9375,
+            "width": 48,
+            "height": 17,
+            "text": "Cached",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(0) > a.fl > span"
+        },
+        {
+            "left": 48,
+            "top": 647.9375,
+            "width": 47,
+            "height": 17,
+            "text": "Similar",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(1) > a.fl",
+            "eleType": "A",
+            "address": "/search?sxsrf=ACYBGNRu1Q6HR3O2LVOhsJKHebNFJO4B0A:1578388623175&q=related:https://www.w3schools.com/html/html_styles.asp+style+in+element&tbo=1&sa=X&ved=2ahUKEwjBtM7pk_HmAhWRV30KHU1rCcAQHzAEegQIBBAG&sxsrf=ACYBGNRu1Q6HR3O2LVOhsJKHebNFJO4B0A:1578388623175"
+        },
+        {
+            "left": 48,
+            "top": 647.9375,
+            "width": 47,
+            "height": 17,
+            "text": "Similar",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(1) > a.fl > span"
+        },
+        {
+            "left": 8,
+            "top": 681.9375,
+            "width": 176,
+            "height": 17,
+            "text": "Chapter Summary. Use the",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > span.st > span"
+        },
+        {
+            "left": 184.265625,
+            "top": 681.9375,
+            "width": 30,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > span.st > em:eq(0) > span"
+        },
+        {
+            "left": 213.59375,
+            "top": 681.9375,
+            "width": 180,
+            "height": 17,
+            "text": "attribute for styling HTML",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > span.st > span:eq(1)"
+        },
+        {
+            "left": 393.859375,
+            "top": 681.9375,
+            "width": 56,
+            "height": 17,
+            "text": "elements",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > span.st > em:eq(1) > span"
+        },
+        {
+            "left": 8,
+            "top": 681.9375,
+            "width": 765,
+            "height": 35,
+            "text": "; Use background-color for background color; Use color for text colors;\n                                Use font-family for text ...",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > span.st > span:eq(2)"
+        },
+        {
+            "left": 8,
+            "top": 717.9375,
+            "width": 0,
+            "height": 17,
+            "text": "‎",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > span"
+        },
+        {
+            "left": 8,
+            "top": 717.9375,
+            "width": 152,
+            "height": 17,
+            "text": "HTML\n                                    Text Formatting",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > a.fl:eq(0)",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/html_formatting.asp"
+        },
+        {
+            "left": 8,
+            "top": 717.9375,
+            "width": 152,
+            "height": 17,
+            "text": "HTML\n                                    Text Formatting",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > a.fl:eq(0) > span"
+        },
+        {
+            "left": 159.765625,
+            "top": 717.9375,
+            "width": 13,
+            "height": 17,
+            "text": "· ‎",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > span:eq(1)"
+        },
+        {
+            "left": 172.8125,
+            "top": 717.9375,
+            "width": 93,
+            "height": 17,
+            "text": "Try\n                                    it Yourself",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > a.fl:eq(1)",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_intro"
+        },
+        {
+            "left": 172.8125,
+            "top": 717.9375,
+            "width": 93,
+            "height": 17,
+            "text": "Try\n                                    it Yourself",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > a.fl:eq(1) > span"
+        },
+        {
+            "left": 266.03125,
+            "top": 717.9375,
+            "width": 13,
+            "height": 17,
+            "text": "· ‎",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > span:eq(2)"
+        },
+        {
+            "left": 279.359375,
+            "top": 717.9375,
+            "width": 162,
+            "height": 17,
+            "text": "HTML\n                                    background color",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > a.fl:eq(2)",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_background-color"
+        },
+        {
+            "left": 279.359375,
+            "top": 717.9375,
+            "width": 162,
+            "height": 17,
+            "text": "HTML\n                                    background color",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > a.fl:eq(2) > span"
+        },
+        {
+            "left": 440.5,
+            "top": 717.9375,
+            "width": 13,
+            "height": 17,
+            "text": "· ‎",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > span:eq(3)"
+        },
+        {
+            "left": 453.828125,
+            "top": 717.9375,
+            "width": 102,
+            "height": 17,
+            "text": "HTML\n                                    text font",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > a.fl:eq(3)",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_font-family"
+        },
+        {
+            "left": 453.828125,
+            "top": 717.9375,
+            "width": 102,
+            "height": 17,
+            "text": "HTML\n                                    text font",
+            "path": "div#srg > div.g:eq(2) > div > div.rc > div.s > div > div.osl > a.fl:eq(3) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html font family",
+            "path": "div#ed_7 > div.AUiS2 > div:eq(0) > div:eq(0) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "how to change\n                                    background color in html",
+            "path": "div#ed_7 > div.AUiS2 > div:eq(0) > div:eq(1) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "font color css",
+            "path": "div#ed_7 > div.AUiS2 > div:eq(0) > div:eq(2) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html font size",
+            "path": "div#ed_7 > div.AUiS2 > div:eq(0) > div:eq(3) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html format codes",
+            "path": "div#ed_7 > div.AUiS2 > div:eq(0) > div:eq(4) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "w3schools html quotes",
+            "path": "div#ed_7 > div.AUiS2 > div:eq(0) > div:eq(5) > span"
+        },
+        {
+            "left": 8,
+            "top": 757.203125,
+            "width": 784,
+            "height": 18,
+            "text": "People also search for",
+            "path": "div#ed_7 > div.AUiS2 > div:eq(1) > div.d8lLoc > h4.eJ7tvc",
+            "eleType": "H"
+        },
+        {
+            "left": 8,
+            "top": 796.46875,
+            "width": 0,
+            "height": 0,
+            "text": "<style>: The Style Information element - HTML: Hypertext ...\n                            \n                            https://developer.mozilla.org › docs › Web › HTML\n                                    › Element › style",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.r > a",
+            "eleType": "A",
+            "address": "https://developer.mozilla.org/en/docs/Web/HTML/Element/style"
+        },
+        {
+            "left": 8,
+            "top": 796.46875,
+            "width": 784,
+            "height": 22,
+            "text": "<style>: The Style Information element - HTML: Hypertext ...",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.r > a > h3.LC20lb",
+            "eleType": "H"
+        },
+        {
+            "left": 8,
+            "top": 855.1875,
+            "width": 430,
+            "height": 17,
+            "text": "https://developer.mozilla.org › docs › Web › HTML\n                                    › Element › style",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.r > a > div.TbwUpd > cite.iUh30.bc > span"
+        },
+        {
+            "left": 8,
+            "top": 889.1875,
+            "width": 0,
+            "height": 0,
+            "text": "",
+            "path": "a#am-b5",
+            "eleType": "A",
+            "address": "#"
+        },
+        {
+            "left": 48,
+            "top": 889.1875,
+            "width": 48,
+            "height": 17,
+            "text": "Cached",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(0) > a.fl",
+            "eleType": "A",
+            "address": "https://webcache.googleusercontent.com/search?q=cache:PBspFonqifkJ:https://developer.mozilla.org/en/docs/Web/HTML/Element/style+&cd=6&hl=en&ct=clnk&gl=au"
+        },
+        {
+            "left": 48,
+            "top": 889.1875,
+            "width": 48,
+            "height": 17,
+            "text": "Cached",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(0) > a.fl > span"
+        },
+        {
+            "left": 48,
+            "top": 907.1875,
+            "width": 47,
+            "height": 17,
+            "text": "Similar",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(1) > a.fl",
+            "eleType": "A",
+            "address": "/search?sxsrf=ACYBGNRu1Q6HR3O2LVOhsJKHebNFJO4B0A:1578388623175&q=related:https://developer.mozilla.org/en/docs/Web/HTML/Element/style+style+in+element&tbo=1&sa=X&ved=2ahUKEwjBtM7pk_HmAhWRV30KHU1rCcAQHzAFegQIBRAG&sxsrf=ACYBGNRu1Q6HR3O2LVOhsJKHebNFJO4B0A:1578388623175"
+        },
+        {
+            "left": 48,
+            "top": 907.1875,
+            "width": 47,
+            "height": 17,
+            "text": "Similar",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.r > span > div.action-menu.ab_ctl > div.action-menu-panel.ab_dropdown > ol > li.action-menu-item.ab_dropdownitem:eq(1) > a.fl > span"
+        },
+        {
+            "left": 8,
+            "top": 941.1875,
+            "width": 99,
+            "height": 17,
+            "text": "Dec 24, 2019 -",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > span.f > span"
+        },
+        {
+            "left": 106.796875,
+            "top": 941.1875,
+            "width": 86,
+            "height": 17,
+            "text": "The HTML <",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > span:eq(1)"
+        },
+        {
+            "left": 193.4375,
+            "top": 941.1875,
+            "width": 30,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > em:eq(0) > span"
+        },
+        {
+            "left": 222.765625,
+            "top": 941.1875,
+            "width": 13,
+            "height": 17,
+            "text": ">",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > span:eq(2)"
+        },
+        {
+            "left": 235.796875,
+            "top": 941.1875,
+            "width": 50,
+            "height": 17,
+            "text": "element",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > em:eq(1) > span"
+        },
+        {
+            "left": 285.546875,
+            "top": 941.1875,
+            "width": 61,
+            "height": 17,
+            "text": "contains",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > span:eq(3)"
+        },
+        {
+            "left": 346.875,
+            "top": 941.1875,
+            "width": 29,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > em:eq(2) > span"
+        },
+        {
+            "left": 8,
+            "top": 941.1875,
+            "width": 770,
+            "height": 35,
+            "text": "information for a document, or part of a\n                                document. It contains CSS, which is applied to the contents of the document containing\n                                the <",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > span:eq(4)"
+        },
+        {
+            "left": 462.734375,
+            "top": 959.1875,
+            "width": 29,
+            "height": 17,
+            "text": "style",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > em:eq(3) > span"
+        },
+        {
+            "left": 492.0625,
+            "top": 959.1875,
+            "width": 13,
+            "height": 17,
+            "text": ">",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > span:eq(5)"
+        },
+        {
+            "left": 505.09375,
+            "top": 959.1875,
+            "width": 50,
+            "height": 17,
+            "text": "element",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > em:eq(4) > span"
+        },
+        {
+            "left": 554.84375,
+            "top": 959.1875,
+            "width": 4,
+            "height": 17,
+            "text": ".",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > span.st > span:eq(6)"
+        },
+        {
+            "left": 8,
+            "top": 977.1875,
+            "width": 0,
+            "height": 17,
+            "text": "‎",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > div.osl > span"
+        },
+        {
+            "left": 8,
+            "top": 977.1875,
+            "width": 64,
+            "height": 17,
+            "text": "Attributes",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > div.osl > a.fl:eq(0)",
+            "eleType": "A",
+            "address": "https://developer.mozilla.org/en/docs/Web/HTML/Element/style#Attributes"
+        },
+        {
+            "left": 8,
+            "top": 977.1875,
+            "width": 64,
+            "height": 17,
+            "text": "Attributes",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > div.osl > a.fl:eq(0) > span"
+        },
+        {
+            "left": 72,
+            "top": 977.1875,
+            "width": 13,
+            "height": 17,
+            "text": "· ‎",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > div.osl > span:eq(1)"
+        },
+        {
+            "left": 85.328125,
+            "top": 977.1875,
+            "width": 63,
+            "height": 17,
+            "text": "Examples",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > div.osl > a.fl:eq(1)",
+            "eleType": "A",
+            "address": "https://developer.mozilla.org/en/docs/Web/HTML/Element/style#Examples"
+        },
+        {
+            "left": 85.328125,
+            "top": 977.1875,
+            "width": 63,
+            "height": 17,
+            "text": "Examples",
+            "path": "div#srg > div.g:eq(3) > div > div.rc > div.s > div > div.osl > a.fl:eq(1) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html style tag in body",
+            "path": "div#ed_12 > div.AUiS2 > div:eq(0) > div:eq(0) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html style class",
+            "path": "div#ed_12 > div.AUiS2 > div:eq(0) > div:eq(1) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html style width",
+            "path": "div#ed_12 > div.AUiS2 > div:eq(0) > div:eq(2) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html style bold",
+            "path": "div#ed_12 > div.AUiS2 > div:eq(0) > div:eq(3) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "html style display",
+            "path": "div#ed_12 > div.AUiS2 > div:eq(0) > div:eq(4) > span"
+        },
+        {
+            "left": 0,
+            "top": 0,
+            "width": 0,
+            "height": 0,
+            "text": "css tag list",
+            "path": "div#ed_12 > div.AUiS2 > div:eq(0) > div:eq(5) > span"
+        },
+        {
+            "left": 8,
+            "top": 1016.453125,
+            "width": 784,
+            "height": 18,
+            "text": "People also search for",
+            "path": "div#ed_12 > div.AUiS2 > div:eq(1) > div.d8lLoc > h4.eJ7tvc",
+            "eleType": "H"
+        }
+    ]
 }
