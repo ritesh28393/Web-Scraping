@@ -28,86 +28,78 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
             //after recursive call, traverse in left to right (all the way) then goes up
             var tdf = (ele) => {
                 $(ele).contents().each(function () {
-                    if (this.nodeType == 1) {
+                    if (this.nodeType == 1 && $(this).css('display') != 'none' && $(this).css('visibility') != 'hidden' && $(this).css('clip') == 'auto' && $(this).width() > 12 && $(this).height() > 12) {
                         //Element
                         elements['ProcessTags'].push($(this).prop('tagName'));
-                        if ($(this).prop('display') != 'none' && $(this).prop('visibility') != 'hidden') {
-                            if (!$(this).css('border').startsWith('0')) {
-                                elements['Data'].push(new AnyElement(
-                                    $(this).offset().left,
-                                    $(this).offset().top,
-                                    $(this).width(),
-                                    $(this).height(),
-                                    undefined,
-                                    $(this).getPath(),
-                                    'B',
-                                ));
-                            }
-                            if (/H[1-6]/.test($(this).prop('tagName'))) {
-                                elements['Data'].push(new AnyElement(
-                                    $(this).offset().left,
-                                    $(this).offset().top,
-                                    $(this).width(),
-                                    $(this).height(),
-                                    $(this).text(),
-                                    $(this).getPath(),
-                                    'H'
-                                ));
-                                return;
-                            }
-                            else if ($(this).prop('tagName') == 'A') {
-                                elements['Data'].push(new AnyElement(
-                                    $(this).offset().left,
-                                    $(this).offset().top,
-                                    $(this).width(),
-                                    $(this).height(),
-                                    $(this).text(),
-                                    $(this).getPath(),
-                                    'A',
-                                    $(this).attr('href')
-                                ));
-                            }
-                            else if ($(this).prop('tagName') == 'IMG') {
-                                elements['Data'].push(new AnyElement(
-                                    $(this).offset().left,
-                                    $(this).offset().top,
-                                    $(this).width(),
-                                    $(this).height(),
-                                    $(this).attr('alt'),
-                                    $(this).getPath(),
-                                    'I',
-                                    $(this).attr('src')
-                                ));
-                            }
-                            else if ($(this).prop('tagName') == 'HR') {
-                                elements['Data'].push(new AnyElement(
-                                    $(this).offset().left,
-                                    $(this).offset().top,
-                                    $(this).width(),
-                                    $(this).height(),
-                                    undefined,
-                                    $(this).getPath(),
-                                    'HR',
-                                ));
-                            }
-                            else if (['SCRIPT', 'NOSCRIPT', 'STYLE', 'FORM', 'SVG'].includes($(this).prop('tagName'))) {
-                                return;
-                            }
+                        if (!$(this).css('border').startsWith('0')) {
+                            //if value is '' that means border-bottom/top/left/right has some value
+                            //HR has a border property
+                            elements['Data'].push(new AnyElement(
+                                $(this).offset().left,
+                                $(this).offset().top,
+                                $(this).width(),
+                                $(this).height(),
+                                '',
+                                $(this).getPath(),
+                                'B',
+                            ));
                         }
+                        if (/H[1-6]/.test($(this).prop('tagName'))) {
+                            elements['Data'].push(new AnyElement(
+                                $(this).offset().left,
+                                $(this).offset().top,
+                                $(this).width(),
+                                $(this).height(),
+                                $(this).text(),
+                                $(this).getPath(),
+                                'H'
+                            ));
+                            return;
+                        }
+                        else if ($(this).prop('tagName') == 'A') {
+                            elements['Data'].push(new AnyElement(
+                                $(this).offset().left,
+                                $(this).offset().top,
+                                $(this).width(),
+                                $(this).height(),
+                                $(this).text(),
+                                $(this).getPath(),
+                                'A',
+                                $(this).attr('href')
+                            ));
+                        }
+                        else if ($(this).prop('tagName') == 'IMG') {
+                            elements['Data'].push(new AnyElement(
+                                $(this).offset().left,
+                                $(this).offset().top,
+                                $(this).width(),
+                                $(this).height(),
+                                $(this).attr('alt'),
+                                $(this).getPath(),
+                                'I',
+                                $(this).attr('src')
+                            ));
+                        }
+                        else if (['SCRIPT', 'NOSCRIPT', 'STYLE', 'FORM', 'svg'].includes($(this).prop('tagName'))) {
+                            return;
+                        }
+                        tdf($(this));
                     }
                     else if (this.nodeType == 3 && $.trim(this.nodeValue).length) {
                         //Text
                         self = $(this).wrap('<span style="color: Red"/>').parent();
-                        elements['Data'].push(new AnyElement(
-                            self.offset().left,
-                            self.offset().top,
-                            self.width(),
-                            self.height(),
-                            self.text(),
-                            self.getPath()
-                        ));
+                        if (self.width() > 12 && self.height() > 12) {
+                            elements['Data'].push(new AnyElement(
+                                self.offset().left,
+                                self.offset().top,
+                                self.width(),
+                                self.height(),
+                                self.text(),
+                                self.getPath(),
+                                'T'
+                            ));
+                        }
                     }
-                    tdf($(this));
                 });
             };
             //object
@@ -118,7 +110,7 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
                 this.height = height;
                 this.text = text.trim();
                 this.path = path;
-                this.eleType = eleType; // H(heading), I(image), A(anchor), HR(horizontal rule), B(has visible border box)
+                this.eleType = eleType; // H(heading), I(image), A(anchor), B(has visible border box), T(text)
                 this.address = address;
             }
             //jquery custom function
@@ -140,7 +132,7 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
                         name += '.' + realNode.className.split(/\s+/).join('.');
                     }
                     var parent = node.parent(), siblings = parent.children(name);
-                    if (siblings.length > 1) name += ':eq(' + siblings.index(node) + ')';
+                    if (siblings.length > 1) name += ':nth-child(' + (siblings.index(node) + 1) + ')';
                     path = name + (path ? ' > ' + path : '');
                     node = parent;
                 }
