@@ -19,21 +19,24 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
         await page.waitForSelector(pageInstance, 'body');
 
         const EVALUATIONFUNC = () => {
-            var elements = {}; // fullTagName : new ElementInfoObject()
+            var elements = {}; 
             elements['ProcessTags'] = [];
             elements['Data'] = [];
-            //elements['MetaData'] = [Link, Title, ...];
-            //traverse depth first. FIrst process all children and comes to parent
-            //before recursive call, traverse top to bottom (all the way) then left to right
-            //after recursive call, traverse in left to right (all the way) then goes up
+            //configuration start
+            var minWidthElement = 10;
+            var minHeightElement = 10;
+            var maxLineWidthForGroupig = 20;
+
+            //configuration end
+            //traverse depth first. FIrst process parent and then all its children (left to right)
             var tdf = (ele) => {
                 $(ele).contents().each(function () {
-                    if (this.nodeType == 1 && $(this).css('display') != 'none' && $(this).css('visibility') != 'hidden' && $(this).css('clip') == 'auto' && $(this).width() > 12 && $(this).height() > 12) {
+                    if (this.nodeType == 1 && $(this).css('display') != 'none' && $(this).css('visibility') != 'hidden' && $(this).css('clip') == 'auto' && $(this).width() > minWidthElement && $(this).height() > minHeightElement) {
                         //Element
                         elements['ProcessTags'].push($(this).prop('tagName'));
                         if (!$(this).css('border').startsWith('0')) {
                             //if value is '' that means border-bottom/top/left/right has some value
-                            //HR has a border property
+                            //HR has a border property (It is like a border with 0 height)
                             elements['Data'].push(new AnyElement(
                                 $(this).offset().left,
                                 $(this).offset().top,
@@ -88,7 +91,7 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
                     else if (this.nodeType == 3 && $.trim(this.nodeValue).length) {
                         //Text
                         self = $(this).wrap('<span style="color: Red"/>').parent();
-                        if (self.width() > 12 && self.height() > 12) {
+                        if (self.width() > minWidthElement && self.height() > minHeightElement) {
                             elements['Data'].push(new AnyElement(
                                 self.offset().left,
                                 self.offset().top,
