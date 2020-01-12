@@ -1,661 +1,900 @@
 {
     "ProcessTags": [
-        "P",
         "DIV",
+        "HEADER",
+        "H1",
+        "P",
         "SPAN",
-        "EM",
+        "IMG",
+        "H3",
+        "H5",
+        "BUTTON",
+        "B",
         "H4",
+        "UL",
+        "LI",
+        "FOOTER",
         "A"
     ],
     "Data": [
         {
-            "left": 8,
-            "top": 16,
-            "width": 51,
-            "height": 17,
-            "text": "dfdgfdg",
-            "path": "html > body > p > span",
-            "eleType": "T"
+            "left": 16,
+            "top": 42,
+            "width": 768,
+            "height": 54,
+            "text": "MY BLOG",
+            "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > h1",
+            "eleType": "H",
+            "groupIndex": -1
         },
         {
-            "left": 8,
-            "top": 215.4375,
-            "width": 29,
-            "height": 17,
-            "text": "The",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span",
-            "eleType": "T"
-        },
-        {
-            "left": 36.875,
-            "top": 215.4375,
-            "width": 29,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > em:nth-child(1) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 66.203125,
-            "top": 215.4375,
-            "width": 181,
-            "height": 17,
-            "text": "attribute specifies an inline",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span:nth-child(2)",
-            "eleType": "T"
-        },
-        {
-            "left": 247.03125,
-            "top": 215.4375,
-            "width": 29,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > em:nth-child(2) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 276.359375,
-            "top": 215.4375,
-            "width": 46,
-            "height": 17,
-            "text": "for an",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span:nth-child(3)",
-            "eleType": "T"
-        },
-        {
-            "left": 322.125,
-            "top": 215.4375,
-            "width": 50,
-            "height": 17,
-            "text": "element",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > em:nth-child(3) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 371.875,
-            "top": 215.4375,
-            "width": 36,
-            "height": 17,
-            "text": ". The",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span:nth-child(4)",
-            "eleType": "T"
-        },
-        {
-            "left": 408.46875,
-            "top": 215.4375,
-            "width": 30,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > em:nth-child(4) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 437.796875,
-            "top": 215.4375,
-            "width": 174,
-            "height": 17,
-            "text": "attribute will override any",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span:nth-child(5)",
-            "eleType": "T"
-        },
-        {
-            "left": 612.40625,
-            "top": 215.4375,
-            "width": 30,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > em:nth-child(5) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 641.734375,
-            "top": 215.4375,
-            "width": 112,
-            "height": 17,
-            "text": "set\n                                globally, e.g.",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span:nth-child(6)",
-            "eleType": "T"
-        },
-        {
-            "left": 754.015625,
-            "top": 215.4375,
-            "width": 36,
-            "height": 17,
-            "text": "styles",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > em:nth-child(6) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 233.4375,
-            "width": 111,
-            "height": 17,
-            "text": "specified in the <",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span:nth-child(7)",
-            "eleType": "T"
-        },
-        {
-            "left": 118.765625,
-            "top": 233.4375,
-            "width": 29,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > em:nth-child(7) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 148.09375,
-            "top": 233.4375,
-            "width": 145,
-            "height": 17,
-            "text": "> tag or in an\n                                external",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span:nth-child(8)",
-            "eleType": "T"
-        },
-        {
-            "left": 293.0625,
-            "top": 233.4375,
-            "width": 29,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > em:nth-child(8) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 322.390625,
-            "top": 233.4375,
-            "width": 41,
-            "height": 17,
-            "text": "sheet.",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > span.st > span:nth-child(9)",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 251.4375,
-            "width": 211,
-            "height": 17,
-            "text": "You visited this page on 6/01/20.",
-            "path": "div#srg > div.g:nth-child(1) > div > div.rc > div.s > div > div.TXwUJf > span",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 290.703125,
-            "width": 784,
+            "left": 276.171875,
+            "top": 113,
+            "width": 168,
             "height": 18,
-            "text": "People also search for",
-            "path": "div#ed_5 > div.AUiS2 > div:nth-child(2) > div.d8lLoc > h4.eJ7tvc",
-            "eleType": "H"
+            "text": "Welcome to the blog of",
+            "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > p > span:nth-child(1)",
+            "eleType": "T",
+            "groupIndex": 0
         },
         {
-            "left": 8,
-            "top": 474.6875,
-            "width": 338,
-            "height": 17,
-            "text": "Styling HTML with CSS. CSS stands for Cascading",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > span.st > span",
-            "eleType": "T"
-        },
-        {
-            "left": 345.65625,
-            "top": 474.6875,
-            "width": 31,
-            "height": 17,
-            "text": "Style",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > span.st > em:nth-child(1) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 376.75,
-            "top": 474.6875,
-            "width": 230,
-            "height": 17,
-            "text": "Sheets. CSS\n                                describes how HTML",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > span.st > span:nth-child(2)",
-            "eleType": "T"
-        },
-        {
-            "left": 606.8125,
-            "top": 474.6875,
-            "width": 56,
-            "height": 17,
-            "text": "elements",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > span.st > em:nth-child(2) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 474.6875,
-            "width": 779,
-            "height": 35,
-            "text": "are to be displayed on screen, paper, or in other\n                                media.",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > span.st > span:nth-child(3)",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 510.6875,
-            "width": 85,
-            "height": 17,
-            "text": "HTML\n                                    Links",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(1)",
-            "eleType": "A",
-            "address": "https://www.w3schools.com/html/html_links.asp"
-        },
-        {
-            "left": 8,
-            "top": 510.6875,
-            "width": 85,
-            "height": 17,
-            "text": "HTML\n                                    Links",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(1) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 93.1875,
-            "top": 510.6875,
-            "width": 13,
-            "height": 17,
-            "text": "· ‎",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > span:nth-child(2)",
-            "eleType": "T"
-        },
-        {
-            "left": 106.234375,
-            "top": 510.6875,
-            "width": 93,
-            "height": 17,
-            "text": "Try\n                                    it Yourself",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(2)",
-            "eleType": "A",
-            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_internal"
-        },
-        {
-            "left": 106.234375,
-            "top": 510.6875,
-            "width": 93,
-            "height": 17,
-            "text": "Try\n                                    it Yourself",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(2) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 199.453125,
-            "top": 510.6875,
-            "width": 14,
-            "height": 17,
-            "text": "· ‎",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > span:nth-child(3)",
-            "eleType": "T"
-        },
-        {
-            "left": 212.78125,
-            "top": 510.6875,
-            "width": 150,
-            "height": 17,
-            "text": "HTML\n                                    with inline CSS",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(3)",
-            "eleType": "A",
-            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_inline"
-        },
-        {
-            "left": 212.78125,
-            "top": 510.6875,
-            "width": 150,
-            "height": 17,
-            "text": "HTML\n                                    with inline CSS",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(3) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 362.875,
-            "top": 510.6875,
-            "width": 13,
-            "height": 17,
-            "text": "· ‎",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > span:nth-child(4)",
-            "eleType": "T"
-        },
-        {
-            "left": 376.203125,
-            "top": 510.6875,
-            "width": 146,
-            "height": 17,
-            "text": "HTML\n                                    with CSS fonts",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(4)",
-            "eleType": "A",
-            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_css_fonts"
-        },
-        {
-            "left": 376.203125,
-            "top": 510.6875,
-            "width": 146,
-            "height": 17,
-            "text": "HTML\n                                    with CSS fonts",
-            "path": "div#srg > div.g:nth-child(2) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(4) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 549.953125,
-            "width": 784,
+            "left": 451.890625,
+            "top": 113,
+            "width": 64,
             "height": 18,
-            "text": "People also search for",
-            "path": "div#ed_8 > div.AUiS2 > div:nth-child(2) > div.d8lLoc > h4.eJ7tvc",
-            "eleType": "H"
+            "text": "unknown",
+            "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > p > span.w3-tag > span",
+            "eleType": "T",
+            "groupIndex": 0
         },
         {
-            "left": 8,
-            "top": 733.9375,
-            "width": 176,
-            "height": 17,
-            "text": "Chapter Summary. Use the",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > span.st > span",
-            "eleType": "T"
+            "left": 16,
+            "top": 196,
+            "width": 767.984,
+            "height": 530.922,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1)",
+            "eleType": "B",
+            "groupIndex": -1
         },
         {
-            "left": 184.265625,
-            "top": 733.9375,
-            "width": 30,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > span.st > em:nth-child(1) > span",
-            "eleType": "T"
+            "left": 16,
+            "top": 196,
+            "width": 767.984,
+            "height": 241.359,
+            "text": "Nature",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > img",
+            "eleType": "I",
+            "address": "/w3images/woods.jpg",
+            "groupIndex": -1
         },
         {
-            "left": 213.59375,
-            "top": 733.9375,
-            "width": 180,
-            "height": 17,
-            "text": "attribute for styling HTML",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > span.st > span:nth-child(2)",
-            "eleType": "T"
+            "left": 32,
+            "top": 447.5,
+            "width": 735.984,
+            "height": 36,
+            "text": "TITLE HEADING",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(1) > h3",
+            "eleType": "H",
+            "groupIndex": -1
         },
         {
-            "left": 393.859375,
-            "top": 733.9375,
-            "width": 56,
-            "height": 17,
-            "text": "elements",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > span.st > em:nth-child(2) > span",
-            "eleType": "T"
+            "left": 32,
+            "top": 493.5,
+            "width": 735.984,
+            "height": 27,
+            "text": "Title description, April 7, 2014",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(1) > h5",
+            "eleType": "H",
+            "groupIndex": -1
         },
         {
-            "left": 8,
-            "top": 733.9375,
-            "width": 765,
-            "height": 35,
-            "text": "; Use background-color for background color; Use color for text colors;\n                                Use font-family for text ...",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > span.st > span:nth-child(3)",
-            "eleType": "T"
+            "left": 32,
+            "top": 547.78125,
+            "width": 716,
+            "height": 84,
+            "text": "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed\n        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > p > span",
+            "eleType": "T",
+            "groupIndex": 1
         },
         {
-            "left": 8,
-            "top": 769.9375,
-            "width": 152,
-            "height": 17,
-            "text": "HTML\n                                    Text Formatting",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(1)",
-            "eleType": "A",
-            "address": "https://www.w3schools.com/html/html_formatting.asp"
+            "left": 32,
+            "top": 663.78125,
+            "width": 99.39099999999999,
+            "height": 22,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border",
+            "eleType": "B",
+            "groupIndex": -1
         },
         {
-            "left": 8,
-            "top": 769.9375,
-            "width": 152,
-            "height": 17,
-            "text": "HTML\n                                    Text Formatting",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(1) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 159.765625,
-            "top": 769.9375,
-            "width": 13,
-            "height": 17,
-            "text": "· ‎",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > span:nth-child(2)",
-            "eleType": "T"
-        },
-        {
-            "left": 172.8125,
-            "top": 769.9375,
-            "width": 93,
-            "height": 17,
-            "text": "Try\n                                    it Yourself",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(2)",
-            "eleType": "A",
-            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_intro"
-        },
-        {
-            "left": 172.8125,
-            "top": 769.9375,
-            "width": 93,
-            "height": 17,
-            "text": "Try\n                                    it Yourself",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(2) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 266.03125,
-            "top": 769.9375,
-            "width": 13,
-            "height": 17,
-            "text": "· ‎",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > span:nth-child(3)",
-            "eleType": "T"
-        },
-        {
-            "left": 279.359375,
-            "top": 769.9375,
-            "width": 162,
-            "height": 17,
-            "text": "HTML\n                                    background color",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(3)",
-            "eleType": "A",
-            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_background-color"
-        },
-        {
-            "left": 279.359375,
-            "top": 769.9375,
-            "width": 162,
-            "height": 17,
-            "text": "HTML\n                                    background color",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(3) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 440.5,
-            "top": 769.9375,
-            "width": 13,
-            "height": 17,
-            "text": "· ‎",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > span:nth-child(4)",
-            "eleType": "T"
-        },
-        {
-            "left": 453.828125,
-            "top": 769.9375,
-            "width": 102,
-            "height": 17,
-            "text": "HTML\n                                    text font",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(4)",
-            "eleType": "A",
-            "address": "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_font-family"
-        },
-        {
-            "left": 453.828125,
-            "top": 769.9375,
-            "width": 102,
-            "height": 17,
-            "text": "HTML\n                                    text font",
-            "path": "div#srg > div.g:nth-child(3) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(4) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 809.203125,
-            "width": 784,
-            "height": 18,
-            "text": "People also search for",
-            "path": "div#ed_7 > div.AUiS2 > div:nth-child(2) > div.d8lLoc > h4.eJ7tvc",
-            "eleType": "H"
-        },
-        {
-            "left": 8,
-            "top": 993.1875,
+            "left": 57,
+            "top": 678.78125,
             "width": 99,
-            "height": 17,
-            "text": "Dec 24, 2019 -",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > span.f > span",
-            "eleType": "T"
-        },
-        {
-            "left": 106.796875,
-            "top": 993.1875,
-            "width": 86,
-            "height": 17,
-            "text": "The HTML <",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > span:nth-child(2)",
-            "eleType": "T"
-        },
-        {
-            "left": 193.4375,
-            "top": 993.1875,
-            "width": 30,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > em:nth-child(1) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 222.765625,
-            "top": 993.1875,
-            "width": 13,
-            "height": 17,
-            "text": ">",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > span:nth-child(3)",
-            "eleType": "T"
-        },
-        {
-            "left": 235.796875,
-            "top": 993.1875,
-            "width": 50,
-            "height": 17,
-            "text": "element",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > em:nth-child(2) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 285.546875,
-            "top": 993.1875,
-            "width": 61,
-            "height": 17,
-            "text": "contains",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > span:nth-child(4)",
-            "eleType": "T"
-        },
-        {
-            "left": 346.875,
-            "top": 993.1875,
-            "width": 29,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > em:nth-child(3) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 993.1875,
-            "width": 770,
-            "height": 35,
-            "text": "information for a document, or part of a\n                                document. It contains CSS, which is applied to the contents of the document containing\n                                the <",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > span:nth-child(5)",
-            "eleType": "T"
-        },
-        {
-            "left": 462.734375,
-            "top": 1011.1875,
-            "width": 29,
-            "height": 17,
-            "text": "style",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > em:nth-child(4) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 492.0625,
-            "top": 1011.1875,
-            "width": 13,
-            "height": 17,
-            "text": ">",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > span:nth-child(6)",
-            "eleType": "T"
-        },
-        {
-            "left": 505.09375,
-            "top": 1011.1875,
-            "width": 50,
-            "height": 17,
-            "text": "element",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > span.st > em:nth-child(5) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 1029.1875,
-            "width": 64,
-            "height": 17,
-            "text": "Attributes",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(1)",
-            "eleType": "A",
-            "address": "https://developer.mozilla.org/en/docs/Web/HTML/Element/style#Attributes"
-        },
-        {
-            "left": 8,
-            "top": 1029.1875,
-            "width": 64,
-            "height": 17,
-            "text": "Attributes",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(1) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 72,
-            "top": 1029.1875,
-            "width": 13,
-            "height": 17,
-            "text": "· ‎",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > div.osl > span:nth-child(2)",
-            "eleType": "T"
-        },
-        {
-            "left": 85.328125,
-            "top": 1029.1875,
-            "width": 63,
-            "height": 17,
-            "text": "Examples",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(2)",
-            "eleType": "A",
-            "address": "https://developer.mozilla.org/en/docs/Web/HTML/Element/style#Examples"
-        },
-        {
-            "left": 85.328125,
-            "top": 1029.1875,
-            "width": 63,
-            "height": 17,
-            "text": "Examples",
-            "path": "div#srg > div.g:nth-child(4) > div > div.rc > div.s > div > div.osl > a.fl:nth-child(2) > span",
-            "eleType": "T"
-        },
-        {
-            "left": 8,
-            "top": 1068.453125,
-            "width": 784,
             "height": 18,
-            "text": "People also search for",
-            "path": "div#ed_12 > div.AUiS2 > div:nth-child(2) > div.d8lLoc > h4.eJ7tvc",
-            "eleType": "H"
+            "text": "READ MORE »",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border > b > span",
+            "eleType": "T",
+            "groupIndex": 2
+        },
+        {
+            "left": 16,
+            "top": 767.921875,
+            "width": 767.984,
+            "height": 530.922,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 767.921875,
+            "width": 767.984,
+            "height": 241.359,
+            "text": "Norway",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > img",
+            "eleType": "I",
+            "address": "/w3images/bridge.jpg",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 1019.421875,
+            "width": 735.984,
+            "height": 36,
+            "text": "BLOG ENTRY",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(1) > h3",
+            "eleType": "H",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 1065.421875,
+            "width": 735.984,
+            "height": 27,
+            "text": "Title description, April 2, 2014",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(1) > h5",
+            "eleType": "H",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 1119.703125,
+            "width": 716,
+            "height": 84,
+            "text": "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed\n        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > p > span",
+            "eleType": "T",
+            "groupIndex": 3
+        },
+        {
+            "left": 32,
+            "top": 1235.703125,
+            "width": 99.39099999999999,
+            "height": 22,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 57,
+            "top": 1250.703125,
+            "width": 99,
+            "height": 18,
+            "text": "READ MORE »",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border > b > span",
+            "eleType": "T",
+            "groupIndex": 4
+        },
+        {
+            "left": 16,
+            "top": 1330.84375,
+            "width": 768,
+            "height": 594.281,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin.w3-margin-top",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 1330.84375,
+            "width": 768,
+            "height": 480,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin.w3-margin-top > img",
+            "eleType": "I",
+            "address": "/w3images/avatar_g.jpg",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 1820.984375,
+            "width": 736,
+            "height": 30,
+            "text": "My Name",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin.w3-margin-top > div.w3-container.w3-white > h4",
+            "eleType": "H",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 1867.984375,
+            "width": 728,
+            "height": 40,
+            "text": "Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin.w3-margin-top > div.w3-container.w3-white > p > span",
+            "eleType": "T",
+            "groupIndex": 5
+        },
+        {
+            "left": 16,
+            "top": 1966.125,
+            "width": 768,
+            "height": 312,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 1984.125,
+            "width": 736,
+            "height": 30,
+            "text": "Popular Posts",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > div.w3-container.w3-padding > h4",
+            "eleType": "H",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 2032.125,
+            "width": 736,
+            "height": 49,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 2048.125,
+            "width": 50,
+            "height": 50,
+            "text": "Image",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > img.w3-left.w3-margin-right",
+            "eleType": "I",
+            "address": "/w3images/workshop.jpg",
+            "groupIndex": -1
+        },
+        {
+            "left": 98,
+            "top": 2051.125,
+            "width": 54,
+            "height": 21,
+            "text": "Lorem",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > span.w3-large > span",
+            "eleType": "T",
+            "groupIndex": 6
+        },
+        {
+            "left": 98,
+            "top": 2077.125,
+            "width": 112,
+            "height": 18,
+            "text": "Sed mattis nunc",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > span:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 7
+        },
+        {
+            "left": 16,
+            "top": 2114.125,
+            "width": 736,
+            "height": 49,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 2130.125,
+            "width": 50,
+            "height": 50,
+            "text": "Image",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > img.w3-left.w3-margin-right",
+            "eleType": "I",
+            "address": "/w3images/gondol.jpg",
+            "groupIndex": -1
+        },
+        {
+            "left": 98,
+            "top": 2133.125,
+            "width": 52,
+            "height": 21,
+            "text": "Ipsum",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > span.w3-large > span",
+            "eleType": "T",
+            "groupIndex": 8
+        },
+        {
+            "left": 98,
+            "top": 2159.125,
+            "width": 100,
+            "height": 18,
+            "text": "Praes tinci sed",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > span:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 9
+        },
+        {
+            "left": 16,
+            "top": 2196.125,
+            "width": 736,
+            "height": 49,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 2212.125,
+            "width": 50,
+            "height": 50,
+            "text": "Image",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > img.w3-left.w3-margin-right",
+            "eleType": "I",
+            "address": "/w3images/skies.jpg",
+            "groupIndex": -1
+        },
+        {
+            "left": 98,
+            "top": 2215.125,
+            "width": 57,
+            "height": 21,
+            "text": "Dorum",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > span.w3-large > span",
+            "eleType": "T",
+            "groupIndex": 10
+        },
+        {
+            "left": 98,
+            "top": 2241.125,
+            "width": 113,
+            "height": 18,
+            "text": "Ultricies congue",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > span:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 11
+        },
+        {
+            "left": 16,
+            "top": 2319.125,
+            "width": 768,
+            "height": 171.281,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 2337.125,
+            "width": 736,
+            "height": 30,
+            "text": "Tags",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-padding > h4",
+            "eleType": "H",
+            "groupIndex": -1
+        },
+        {
+            "left": 40,
+            "top": 2402.265625,
+            "width": 41,
+            "height": 18,
+            "text": "Travel",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-black.w3-margin-bottom > span",
+            "eleType": "T",
+            "groupIndex": 12
+        },
+        {
+            "left": 101.078125,
+            "top": 2405.265625,
+            "width": 53,
+            "height": 14,
+            "text": "New York",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(1) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 173.46875,
+            "top": 2405.265625,
+            "width": 43,
+            "height": 14,
+            "text": "London",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 235.78125,
+            "top": 2405.265625,
+            "width": 26,
+            "height": 14,
+            "text": "IKEA",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(3) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 281.734375,
+            "top": 2405.265625,
+            "width": 52,
+            "height": 14,
+            "text": "NORWAY",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(4) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 354.21875,
+            "top": 2405.265625,
+            "width": 20,
+            "height": 14,
+            "text": "DIY",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(5) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 393.421875,
+            "top": 2405.265625,
+            "width": 30,
+            "height": 14,
+            "text": "Ideas",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(6) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 443.046875,
+            "top": 2405.265625,
+            "width": 28,
+            "height": 14,
+            "text": "Baby",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(7) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 491.109375,
+            "top": 2405.265625,
+            "width": 36,
+            "height": 14,
+            "text": "Family",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(8) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 546.8125,
+            "top": 2405.265625,
+            "width": 31,
+            "height": 14,
+            "text": "News",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(9) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 598.140625,
+            "top": 2405.265625,
+            "width": 47,
+            "height": 14,
+            "text": "Clothing",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(10) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 664.578125,
+            "top": 2405.265625,
+            "width": 53,
+            "height": 14,
+            "text": "Shopping",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(11) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 40,
+            "top": 2443.265625,
+            "width": 36,
+            "height": 14,
+            "text": "Sports",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(12) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 95.734375,
+            "top": 2443.265625,
+            "width": 39,
+            "height": 14,
+            "text": "Games",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(13) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 40,
+            "top": 2590.40625,
+            "width": 59,
+            "height": 18,
+            "text": "Previous",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > button.w3-button.w3-black.w3-disabled.w3-padding-large.w3-margin-bottom > span",
+            "eleType": "T",
+            "groupIndex": 14
+        },
+        {
+            "left": 151.046875,
+            "top": 2590.40625,
+            "width": 45,
+            "height": 18,
+            "text": "Next »",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > button.w3-button.w3-black.w3-padding-large.w3-margin-bottom:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 15
+        },
+        {
+            "left": 16,
+            "top": 2655.40625,
+            "width": 86,
+            "height": 18,
+            "text": "Powered by",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > span",
+            "eleType": "T",
+            "groupIndex": 16
+        },
+        {
+            "left": 101.515625,
+            "top": 2655.40625,
+            "width": 45,
+            "height": 18,
+            "text": "w3.css",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > a",
+            "eleType": "A",
+            "address": "https://www.w3schools.com/w3css/default.asp",
+            "groupIndex": -1
+        },
+        {
+            "left": 101.515625,
+            "top": 2655.40625,
+            "width": 45,
+            "height": 18,
+            "text": "w3.css",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > a > span",
+            "eleType": "T",
+            "groupIndex": 16
+        }
+    ],
+    "textGroup": [
+        {
+            "left": 276.171875,
+            "top": 113,
+            "width": 168,
+            "height": 18,
+            "text": "Welcome to the blog of",
+            "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > p > span:nth-child(1)",
+            "eleType": "T",
+            "groupIndex": 0
+        },
+        {
+            "left": 451.890625,
+            "top": 113,
+            "width": 64,
+            "height": 18,
+            "text": "unknown",
+            "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > p > span.w3-tag > span",
+            "eleType": "T",
+            "groupIndex": 0
+        },
+        {
+            "left": 32,
+            "top": 547.78125,
+            "width": 716,
+            "height": 84,
+            "text": "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed\n        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > p > span",
+            "eleType": "T",
+            "groupIndex": 1
+        },
+        {
+            "left": 57,
+            "top": 678.78125,
+            "width": 99,
+            "height": 18,
+            "text": "READ MORE »",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border > b > span",
+            "eleType": "T",
+            "groupIndex": 2
+        },
+        {
+            "left": 32,
+            "top": 1119.703125,
+            "width": 716,
+            "height": 84,
+            "text": "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed\n        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > p > span",
+            "eleType": "T",
+            "groupIndex": 3
+        },
+        {
+            "left": 57,
+            "top": 1250.703125,
+            "width": 99,
+            "height": 18,
+            "text": "READ MORE »",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border > b > span",
+            "eleType": "T",
+            "groupIndex": 4
+        },
+        {
+            "left": 32,
+            "top": 1867.984375,
+            "width": 728,
+            "height": 40,
+            "text": "Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin.w3-margin-top > div.w3-container.w3-white > p > span",
+            "eleType": "T",
+            "groupIndex": 5
+        },
+        {
+            "left": 98,
+            "top": 2051.125,
+            "width": 54,
+            "height": 21,
+            "text": "Lorem",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > span.w3-large > span",
+            "eleType": "T",
+            "groupIndex": 6
+        },
+        {
+            "left": 98,
+            "top": 2077.125,
+            "width": 112,
+            "height": 18,
+            "text": "Sed mattis nunc",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > span:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 7
+        },
+        {
+            "left": 98,
+            "top": 2133.125,
+            "width": 52,
+            "height": 21,
+            "text": "Ipsum",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > span.w3-large > span",
+            "eleType": "T",
+            "groupIndex": 8
+        },
+        {
+            "left": 98,
+            "top": 2159.125,
+            "width": 100,
+            "height": 18,
+            "text": "Praes tinci sed",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > span:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 9
+        },
+        {
+            "left": 98,
+            "top": 2215.125,
+            "width": 57,
+            "height": 21,
+            "text": "Dorum",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > span.w3-large > span",
+            "eleType": "T",
+            "groupIndex": 10
+        },
+        {
+            "left": 98,
+            "top": 2241.125,
+            "width": 113,
+            "height": 18,
+            "text": "Ultricies congue",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > span:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 11
+        },
+        {
+            "left": 40,
+            "top": 2402.265625,
+            "width": 41,
+            "height": 18,
+            "text": "Travel",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-black.w3-margin-bottom > span",
+            "eleType": "T",
+            "groupIndex": 12
+        },
+        {
+            "left": 101.078125,
+            "top": 2405.265625,
+            "width": 53,
+            "height": 14,
+            "text": "New York",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(1) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 173.46875,
+            "top": 2405.265625,
+            "width": 43,
+            "height": 14,
+            "text": "London",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 235.78125,
+            "top": 2405.265625,
+            "width": 26,
+            "height": 14,
+            "text": "IKEA",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(3) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 281.734375,
+            "top": 2405.265625,
+            "width": 52,
+            "height": 14,
+            "text": "NORWAY",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(4) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 354.21875,
+            "top": 2405.265625,
+            "width": 20,
+            "height": 14,
+            "text": "DIY",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(5) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 393.421875,
+            "top": 2405.265625,
+            "width": 30,
+            "height": 14,
+            "text": "Ideas",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(6) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 443.046875,
+            "top": 2405.265625,
+            "width": 28,
+            "height": 14,
+            "text": "Baby",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(7) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 491.109375,
+            "top": 2405.265625,
+            "width": 36,
+            "height": 14,
+            "text": "Family",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(8) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 546.8125,
+            "top": 2405.265625,
+            "width": 31,
+            "height": 14,
+            "text": "News",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(9) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 598.140625,
+            "top": 2405.265625,
+            "width": 47,
+            "height": 14,
+            "text": "Clothing",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(10) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 664.578125,
+            "top": 2405.265625,
+            "width": 53,
+            "height": 14,
+            "text": "Shopping",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(11) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 40,
+            "top": 2443.265625,
+            "width": 36,
+            "height": 14,
+            "text": "Sports",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(12) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 95.734375,
+            "top": 2443.265625,
+            "width": 39,
+            "height": 14,
+            "text": "Games",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(13) > span",
+            "eleType": "T",
+            "groupIndex": 13
+        },
+        {
+            "left": 40,
+            "top": 2590.40625,
+            "width": 59,
+            "height": 18,
+            "text": "Previous",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > button.w3-button.w3-black.w3-disabled.w3-padding-large.w3-margin-bottom > span",
+            "eleType": "T",
+            "groupIndex": 14
+        },
+        {
+            "left": 151.046875,
+            "top": 2590.40625,
+            "width": 45,
+            "height": 18,
+            "text": "Next »",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > button.w3-button.w3-black.w3-padding-large.w3-margin-bottom:nth-child(2) > span",
+            "eleType": "T",
+            "groupIndex": 15
+        },
+        {
+            "left": 16,
+            "top": 2655.40625,
+            "width": 86,
+            "height": 18,
+            "text": "Powered by",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > span",
+            "eleType": "T",
+            "groupIndex": 16
+        },
+        {
+            "left": 101.515625,
+            "top": 2655.40625,
+            "width": 45,
+            "height": 18,
+            "text": "w3.css",
+            "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > a > span",
+            "eleType": "T",
+            "groupIndex": 16
         }
     ]
 }
