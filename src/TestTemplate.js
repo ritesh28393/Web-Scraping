@@ -108,6 +108,7 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
             };
             //object
             function AnyElement(left, top, width, height, text, path, eleType, address) {
+                this.id = uuidv4();
                 this.left = left;
                 this.top = top;
                 this.width = width;
@@ -116,7 +117,16 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
                 this.path = path;
                 this.eleType = eleType; // H(heading), I(image), A(anchor), B(has visible border box), T(text)
                 this.address = address;
-                this.groupIndex = -1;
+                this.boxId = undefined;
+                this.nearestTextId = undefined; // down or right element id
+                this.relatedByPathTextId = undefined;
+            }
+            //function
+            function uuidv4() {
+                return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+                    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                    return v.toString(16);
+                });
             }
             //jquery custom function
             $.fn.getPath = function () {
@@ -169,6 +179,7 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
             }
             */
             //grouping by selector path
+            /*
             groupIndexCounter = 0;
             elements['textGroup'] = elements['Data'].filter(e => e.eleType == 'T');
             elements['textGroup'][0].groupIndex = groupIndexCounter;
@@ -189,6 +200,22 @@ const keyboard = require('./puppeteerFunctions/keyboard.js');
                     }
                     next.groupIndex = canBeGrouped ? self.groupIndex : ++groupIndexCounter;
                 }
+            }
+            */
+            //grouping by box (RIGHT NOW NOT considering height/width = 0(or some min value))
+            elements['boxGroup'] = elements['Data'].filter(e => e.eleType == 'B');
+            elements['textGroup'] = elements['Data'].filter(e => e.eleType == 'T');
+            for (let index = 0; index < elements['boxGroup'].length; index++) {
+                const boxEle = elements['boxGroup'][index];
+                let x1 = boxEle.left;
+                let x2 = boxEle.left + boxEle.width;
+                let y1 = boxEle.top;
+                let y2 = boxEle.top + boxEle.height;
+                elements['textGroup'].forEach(textEle => {
+                    if (textEle.left > x1 && textEle.left < x2 && textEle.top > y1 && textEle.top < y2) {
+                        textEle.groupIndex = textEle.groupIndex == -1 ? index : textEle.groupIndex + ', ' + index;
+                    }
+                });
             }
             //processed tags
             elements['ProcessTags'] = elements['ProcessTags'].filter((v, i, a) => a.indexOf(v) === i);

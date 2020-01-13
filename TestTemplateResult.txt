@@ -35,7 +35,7 @@
             "text": "Welcome to the blog of",
             "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > p > span:nth-child(1)",
             "eleType": "T",
-            "groupIndex": 0
+            "groupIndex": -1
         },
         {
             "left": 451.890625,
@@ -45,7 +45,7 @@
             "text": "unknown",
             "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > p > span.w3-tag > span",
             "eleType": "T",
-            "groupIndex": 0
+            "groupIndex": -1
         },
         {
             "left": 16,
@@ -96,7 +96,7 @@
             "text": "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed\n        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > p > span",
             "eleType": "T",
-            "groupIndex": 1
+            "groupIndex": 0
         },
         {
             "left": 32,
@@ -116,7 +116,7 @@
             "text": "READ MORE »",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border > b > span",
             "eleType": "T",
-            "groupIndex": 2
+            "groupIndex": "0, 1"
         },
         {
             "left": 16,
@@ -167,7 +167,7 @@
             "text": "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed\n        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > p > span",
             "eleType": "T",
-            "groupIndex": 3
+            "groupIndex": 2
         },
         {
             "left": 32,
@@ -187,7 +187,7 @@
             "text": "READ MORE »",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border > b > span",
             "eleType": "T",
-            "groupIndex": 4
+            "groupIndex": "2, 3"
         },
         {
             "left": 16,
@@ -228,7 +228,7 @@
             "text": "Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin.w3-margin-top > div.w3-container.w3-white > p > span",
             "eleType": "T",
-            "groupIndex": 5
+            "groupIndex": 4
         },
         {
             "left": 16,
@@ -279,7 +279,7 @@
             "text": "Lorem",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > span.w3-large > span",
             "eleType": "T",
-            "groupIndex": 6
+            "groupIndex": "5, 6"
         },
         {
             "left": 98,
@@ -289,7 +289,7 @@
             "text": "Sed mattis nunc",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > span:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 7
+            "groupIndex": "5, 6"
         },
         {
             "left": 16,
@@ -320,7 +320,7 @@
             "text": "Ipsum",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > span.w3-large > span",
             "eleType": "T",
-            "groupIndex": 8
+            "groupIndex": "5, 7"
         },
         {
             "left": 98,
@@ -330,7 +330,7 @@
             "text": "Praes tinci sed",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > span:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 9
+            "groupIndex": "5, 7"
         },
         {
             "left": 16,
@@ -361,7 +361,7 @@
             "text": "Dorum",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > span.w3-large > span",
             "eleType": "T",
-            "groupIndex": 10
+            "groupIndex": "5, 8"
         },
         {
             "left": 98,
@@ -371,7 +371,7 @@
             "text": "Ultricies congue",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > span:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 11
+            "groupIndex": "5, 8"
         },
         {
             "left": 16,
@@ -401,7 +401,7 @@
             "text": "Travel",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-black.w3-margin-bottom > span",
             "eleType": "T",
-            "groupIndex": 12
+            "groupIndex": 9
         },
         {
             "left": 101.078125,
@@ -411,7 +411,7 @@
             "text": "New York",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(1) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 173.46875,
@@ -421,7 +421,7 @@
             "text": "London",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 235.78125,
@@ -431,7 +431,7 @@
             "text": "IKEA",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(3) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 281.734375,
@@ -441,7 +441,7 @@
             "text": "NORWAY",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(4) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 354.21875,
@@ -451,7 +451,7 @@
             "text": "DIY",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(5) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 393.421875,
@@ -461,7 +461,7 @@
             "text": "Ideas",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(6) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 443.046875,
@@ -471,7 +471,7 @@
             "text": "Baby",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(7) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 491.109375,
@@ -481,7 +481,7 @@
             "text": "Family",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(8) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 546.8125,
@@ -491,7 +491,7 @@
             "text": "News",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(9) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 598.140625,
@@ -501,7 +501,7 @@
             "text": "Clothing",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(10) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 664.578125,
@@ -511,7 +511,7 @@
             "text": "Shopping",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(11) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 40,
@@ -521,7 +521,7 @@
             "text": "Sports",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(12) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 95.734375,
@@ -531,7 +531,7 @@
             "text": "Games",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(13) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 40,
@@ -541,7 +541,7 @@
             "text": "Previous",
             "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > button.w3-button.w3-black.w3-disabled.w3-padding-large.w3-margin-bottom > span",
             "eleType": "T",
-            "groupIndex": 14
+            "groupIndex": -1
         },
         {
             "left": 151.046875,
@@ -551,7 +551,7 @@
             "text": "Next »",
             "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > button.w3-button.w3-black.w3-padding-large.w3-margin-bottom:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 15
+            "groupIndex": -1
         },
         {
             "left": 16,
@@ -561,7 +561,7 @@
             "text": "Powered by",
             "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > span",
             "eleType": "T",
-            "groupIndex": 16
+            "groupIndex": -1
         },
         {
             "left": 101.515625,
@@ -582,7 +582,109 @@
             "text": "w3.css",
             "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > a > span",
             "eleType": "T",
-            "groupIndex": 16
+            "groupIndex": -1
+        }
+    ],
+    "boxGroup": [
+        {
+            "left": 16,
+            "top": 196,
+            "width": 767.984,
+            "height": 530.922,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 663.78125,
+            "width": 99.39099999999999,
+            "height": 22,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 767.921875,
+            "width": 767.984,
+            "height": 530.922,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 32,
+            "top": 1235.703125,
+            "width": 99.39099999999999,
+            "height": 22,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 1330.84375,
+            "width": 768,
+            "height": 594.281,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin.w3-margin-top",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 1966.125,
+            "width": 768,
+            "height": 312,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 2032.125,
+            "width": 736,
+            "height": 49,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 2114.125,
+            "width": 736,
+            "height": 49,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 2196.125,
+            "width": 736,
+            "height": 49,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3)",
+            "eleType": "B",
+            "groupIndex": -1
+        },
+        {
+            "left": 16,
+            "top": 2319.125,
+            "width": 768,
+            "height": 171.281,
+            "text": "",
+            "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3)",
+            "eleType": "B",
+            "groupIndex": -1
         }
     ],
     "textGroup": [
@@ -594,7 +696,7 @@
             "text": "Welcome to the blog of",
             "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > p > span:nth-child(1)",
             "eleType": "T",
-            "groupIndex": 0
+            "groupIndex": -1
         },
         {
             "left": 451.890625,
@@ -604,7 +706,7 @@
             "text": "unknown",
             "path": "html > body.w3-light-grey > div.w3-content > header.w3-container.w3-center.w3-padding-32 > p > span.w3-tag > span",
             "eleType": "T",
-            "groupIndex": 0
+            "groupIndex": -1
         },
         {
             "left": 32,
@@ -614,7 +716,7 @@
             "text": "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed\n        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > p > span",
             "eleType": "T",
-            "groupIndex": 1
+            "groupIndex": 0
         },
         {
             "left": 57,
@@ -624,7 +726,7 @@
             "text": "READ MORE »",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(1) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border > b > span",
             "eleType": "T",
-            "groupIndex": 2
+            "groupIndex": "0, 1"
         },
         {
             "left": 32,
@@ -634,7 +736,7 @@
             "text": "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed\n        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > p > span",
             "eleType": "T",
-            "groupIndex": 3
+            "groupIndex": 2
         },
         {
             "left": 57,
@@ -644,7 +746,7 @@
             "text": "READ MORE »",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l8.s12 > div.w3-card-4.w3-margin.w3-white:nth-child(2) > div.w3-container:nth-child(2) > div.w3-row > div.w3-col.m8.s12 > p > button.w3-button.w3-padding-large.w3-white.w3-border > b > span",
             "eleType": "T",
-            "groupIndex": 4
+            "groupIndex": "2, 3"
         },
         {
             "left": 32,
@@ -654,7 +756,7 @@
             "text": "Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin.w3-margin-top > div.w3-container.w3-white > p > span",
             "eleType": "T",
-            "groupIndex": 5
+            "groupIndex": 4
         },
         {
             "left": 98,
@@ -664,7 +766,7 @@
             "text": "Lorem",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > span.w3-large > span",
             "eleType": "T",
-            "groupIndex": 6
+            "groupIndex": "5, 6"
         },
         {
             "left": 98,
@@ -674,7 +776,7 @@
             "text": "Sed mattis nunc",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(1) > span:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 7
+            "groupIndex": "5, 6"
         },
         {
             "left": 98,
@@ -684,7 +786,7 @@
             "text": "Ipsum",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > span.w3-large > span",
             "eleType": "T",
-            "groupIndex": 8
+            "groupIndex": "5, 7"
         },
         {
             "left": 98,
@@ -694,7 +796,7 @@
             "text": "Praes tinci sed",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(2) > span:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 9
+            "groupIndex": "5, 7"
         },
         {
             "left": 98,
@@ -704,7 +806,7 @@
             "text": "Dorum",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > span.w3-large > span",
             "eleType": "T",
-            "groupIndex": 10
+            "groupIndex": "5, 8"
         },
         {
             "left": 98,
@@ -714,7 +816,7 @@
             "text": "Ultricies congue",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(2) > ul.w3-ul.w3-hoverable.w3-white > li.w3-padding-16:nth-child(3) > span:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 11
+            "groupIndex": "5, 8"
         },
         {
             "left": 40,
@@ -724,7 +826,7 @@
             "text": "Travel",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-black.w3-margin-bottom > span",
             "eleType": "T",
-            "groupIndex": 12
+            "groupIndex": 9
         },
         {
             "left": 101.078125,
@@ -734,7 +836,7 @@
             "text": "New York",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(1) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 173.46875,
@@ -744,7 +846,7 @@
             "text": "London",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 235.78125,
@@ -754,7 +856,7 @@
             "text": "IKEA",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(3) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 281.734375,
@@ -764,7 +866,7 @@
             "text": "NORWAY",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(4) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 354.21875,
@@ -774,7 +876,7 @@
             "text": "DIY",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(5) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 393.421875,
@@ -784,7 +886,7 @@
             "text": "Ideas",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(6) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 443.046875,
@@ -794,7 +896,7 @@
             "text": "Baby",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(7) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 491.109375,
@@ -804,7 +906,7 @@
             "text": "Family",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(8) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 546.8125,
@@ -814,7 +916,7 @@
             "text": "News",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(9) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 598.140625,
@@ -824,7 +926,7 @@
             "text": "Clothing",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(10) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 664.578125,
@@ -834,7 +936,7 @@
             "text": "Shopping",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(11) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 40,
@@ -844,7 +946,7 @@
             "text": "Sports",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(12) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 95.734375,
@@ -854,7 +956,7 @@
             "text": "Games",
             "path": "html > body.w3-light-grey > div.w3-content > div.w3-row > div.w3-col.l4 > div.w3-card.w3-margin:nth-child(3) > div.w3-container.w3-white > p > span.w3-tag.w3-light-grey.w3-small.w3-margin-bottom:nth-child(13) > span",
             "eleType": "T",
-            "groupIndex": 13
+            "groupIndex": 9
         },
         {
             "left": 40,
@@ -864,7 +966,7 @@
             "text": "Previous",
             "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > button.w3-button.w3-black.w3-disabled.w3-padding-large.w3-margin-bottom > span",
             "eleType": "T",
-            "groupIndex": 14
+            "groupIndex": -1
         },
         {
             "left": 151.046875,
@@ -874,7 +976,7 @@
             "text": "Next »",
             "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > button.w3-button.w3-black.w3-padding-large.w3-margin-bottom:nth-child(2) > span",
             "eleType": "T",
-            "groupIndex": 15
+            "groupIndex": -1
         },
         {
             "left": 16,
@@ -884,7 +986,7 @@
             "text": "Powered by",
             "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > span",
             "eleType": "T",
-            "groupIndex": 16
+            "groupIndex": -1
         },
         {
             "left": 101.515625,
@@ -894,7 +996,7 @@
             "text": "w3.css",
             "path": "html > body.w3-light-grey > footer.w3-container.w3-dark-grey.w3-padding-32.w3-margin-top > p > a > span",
             "eleType": "T",
-            "groupIndex": 16
+            "groupIndex": -1
         }
     ]
 }
